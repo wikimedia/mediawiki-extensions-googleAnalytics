@@ -6,27 +6,33 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['parserhook'][] = array(
     'name'=>'Google Analytics Extension',
     'url'=>'http://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
-    'author'=>'Tim Laqua, t.laqua at gmail dot com',
+    'author'=>'Tim Laqua',
     'description'=>'Inserts Google Analytics script (urchin.js) in to MediaWiki pages for tracking.',
-    'version'=>'1.0'
+    'version'=>'1.1'
 );
  
 if (!$googleAnalyticsSkinHack) {
-    if ($googleAnalyticsMonobook) {
+	if ($googleAnalyticsAfterBottomScripts) {
+        $wgHooks['SkinAfterBottomScripts'][]  = 'googleAnalyticsHook'; 
+    } else if ($googleAnalyticsMonobook) {
         $wgHooks['MonoBookTemplateToolboxEnd'][]  = 'googleAnalyticsHook'; 
     } else {
         $wgHooks['BeforePageDisplay'][]  = 'googleAnalyticsHook'; 
     }
 }
  
-function googleAnalyticsHook(&$out) {
-    global $googleAnalyticsMonobook;
-    if ($googleAnalyticsMonobook) {
-        echo(addGoogleAnalytics()); 
-    } else {
-        $out->addHTML(addGoogleAnalytics()); 
-    }
-    return true;
+function googleAnalyticsHook(&$out, &$text='') {
+    global $googleAnalyticsMonobook, $googleAnalyticsAfterBottomScripts;
+    if ($googleAnalyticsAfterBottomScripts) {
+		$text .= addGoogleAnalytics();
+	} else {
+		if ($googleAnalyticsMonobook) {
+			echo(addGoogleAnalytics()); 
+		} else {
+			$out->addHTML(addGoogleAnalytics()); 
+		}
+	}
+	return true;
 }
  
 function addGoogleAnalytics() {
