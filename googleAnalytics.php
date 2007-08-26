@@ -59,3 +59,6 @@ function efAddGoogleAnalytics() {
  
 	return $funcOutput;
 }
+
+///Alias for efAddGoogleAnalytics - backwards compatibility.
+function addGoogleAnalytics() { return efAddGoogleAnalytics(); }
