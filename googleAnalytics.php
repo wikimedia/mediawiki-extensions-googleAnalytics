@@ -2,40 +2,42 @@
 if ( !defined( 'MEDIAWIKI' ) ) {
         die( 'This file is a MediaWiki extension, it is not a valid entry point' );
 }
- 
-$wgExtensionCredits['parserhook'][] = array(
-    'name'=>'Google Analytics Extension',
+
+$wgExtensionCredits['other'][] = array(
+    'name'=>'Google Analytics Integration',
     'url'=>'http://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
     'author'=>'Tim Laqua',
     'description'=>'Inserts Google Analytics script (urchin.js) in to MediaWiki pages for tracking.',
-    'version'=>'1.1'
+    'version'=>'1.2'
 );
- 
-if (!$googleAnalyticsSkinHack) {
-	if ($googleAnalyticsAfterBottomScripts) {
-        $wgHooks['SkinAfterBottomScripts'][]  = 'googleAnalyticsHook'; 
-    } else if ($googleAnalyticsMonobook) {
-        $wgHooks['MonoBookTemplateToolboxEnd'][]  = 'googleAnalyticsHook'; 
-    } else {
-        $wgHooks['BeforePageDisplay'][]  = 'googleAnalyticsHook'; 
-    }
+
+if( version_compare( $wgVersion, '1.11alpha', '>=' ) ) {
+    $wgHooks['SkinAfterBottomScripts'][]  = 'efGoogleAnalyticsHookText'; 
+} else {
+	$wgHooks['MonoBookTemplateToolboxEnd'][]  = 'efGoogleAnalyticsHookEcho'; 
+	$wgHooks['BeforePageDisplay'][]  = 'efGoogleAnalyticsHookOut'; 
 }
- 
-function googleAnalyticsHook(&$out, &$text='') {
-    global $googleAnalyticsMonobook, $googleAnalyticsAfterBottomScripts;
-    if ($googleAnalyticsAfterBottomScripts) {
-		$text .= addGoogleAnalytics();
-	} else {
-		if ($googleAnalyticsMonobook) {
-			echo(addGoogleAnalytics()); 
-		} else {
-			$out->addHTML(addGoogleAnalytics()); 
-		}
-	}
+
+function efGoogleAnalyticsHookText(&$skin, &$text='') {
+	$text .= efAddGoogleAnalytics();
 	return true;
 }
- 
-function addGoogleAnalytics() {
+
+function efGoogleAnalyticsHookEcho(&$out) {
+	global $googleAnalyticsMonobook;
+	if ($googleAnalyticsMonobook)
+		echo(efAddGoogleAnalytics()); 
+	return true;
+}
+
+function efGoogleAnalyticsHookOut(&$out) {
+	global $googleAnalyticsMonobook;
+	if (!$googleAnalyticsMonobook)
+		$out->addHTML(efAddGoogleAnalytics());
+	return true;
+}
+
+function efAddGoogleAnalytics() {
     global $googleAnalytics, $wgUser;
     if (!$wgUser->isAllowed('bot')) {
         if (!$wgUser->isAllowed('protect')) {
@@ -55,5 +57,5 @@ function addGoogleAnalytics() {
         $funcOutput = "\n<!-- Google Analytics tracking is disabled for bots -->";
     }
  
-return $funcOutput;
+	return $funcOutput;
 }
