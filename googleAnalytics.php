@@ -4,18 +4,18 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 $wgExtensionCredits['other'][] = array(
-    'name'=>'Google Analytics Integration',
-    'url'=>'http://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
-    'author'=>'Tim Laqua',
-    'description'=>'Inserts Google Analytics script (urchin.js) in to MediaWiki pages for tracking.',
-    'version'=>'1.2'
+	'name'=>'Google Analytics Integration',
+	'url'=>'http://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
+	'author'=>'Tim Laqua',
+	'description'=>'Inserts Google Analytics script (urchin.js) in to MediaWiki pages for tracking.',
+	'version'=>'1.2',
 );
 
 if( version_compare( $wgVersion, '1.11alpha', '>=' ) ) {
-    $wgHooks['SkinAfterBottomScripts'][]  = 'efGoogleAnalyticsHookText'; 
+    $wgHooks['SkinAfterBottomScripts'][]  = 'efGoogleAnalyticsHookText';
 } else {
-	$wgHooks['MonoBookTemplateToolboxEnd'][]  = 'efGoogleAnalyticsHookEcho'; 
-	$wgHooks['BeforePageDisplay'][]  = 'efGoogleAnalyticsHookOut'; 
+	$wgHooks['MonoBookTemplateToolboxEnd'][]  = 'efGoogleAnalyticsHookEcho';
+	$wgHooks['BeforePageDisplay'][]  = 'efGoogleAnalyticsHookOut';
 }
 
 function efGoogleAnalyticsHookText(&$skin, &$text='') {
@@ -26,7 +26,7 @@ function efGoogleAnalyticsHookText(&$skin, &$text='') {
 function efGoogleAnalyticsHookEcho(&$out) {
 	global $googleAnalyticsMonobook;
 	if ($googleAnalyticsMonobook)
-		echo(efAddGoogleAnalytics()); 
+		echo(efAddGoogleAnalytics());
 	return true;
 }
 
@@ -56,7 +56,7 @@ function efAddGoogleAnalytics() {
     } else {
         $funcOutput = "\n<!-- Google Analytics tracking is disabled for bots -->";
     }
- 
+
 	return $funcOutput;
 }
 
