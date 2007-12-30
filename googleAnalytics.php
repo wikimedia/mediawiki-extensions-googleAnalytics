@@ -7,8 +7,8 @@ $wgExtensionCredits['other'][] = array(
     'name'=>'Google Analytics Integration',
     'url'=>'http://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
     'author'=>'Tim Laqua',
-    'description'=>'Inserts Google Analytics script (urchin.js) in to MediaWiki pages for tracking.',
-    'version'=>'1.2'
+    'description'=>'Inserts Google Analytics script (ga.js) in to MediaWiki pages for tracking.',
+    'version'=>'1.3'
 );
 
 if( version_compare( $wgVersion, '1.11alpha', '>=' ) ) {
@@ -42,11 +42,17 @@ function efAddGoogleAnalytics() {
     if (!$wgUser->isAllowed('bot')) {
         if (!$wgUser->isAllowed('protect')) {
             if ($googleAnalytics) {
-                $funcOutput = "\n<script src=\"http://www.google-analytics.com/urchin.js\" type=\"text/javascript\">\n</script>\n".
-                              "<script type=\"text/javascript\">\n".
-                              "_uacct = "."\"" . $googleAnalytics . "\";\n".
-                              "urchinTracker();\n".
-                              "</script>\n";
+                $funcOutput = <<<GASCRIPT
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("{$googleAnalytics}");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+GASCRIPT;
             } else {
                     $funcOutput = "\n<!-- Set \$googleAnalytics to your uacct # provided by Google Analytics. -->";
             }
