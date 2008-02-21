@@ -14,6 +14,13 @@ $messages['en'] = array(
 	'googleanalytics-desc' => 'Inserts Google Analytics script (ga.js) in to MediaWiki pages for tracking',
 );
 
+/** German (Deutsch)
+ * @author Raimond Spekking
+ */
+$messages['de'] = array(
+	'googleanalytics-desc' => 'Ermöglicht das Einbinden des Google-Analytics-Skript (ga.js) auf Seiten',
+);
+
 /** French (Français)
  * @author Grondin
  */
