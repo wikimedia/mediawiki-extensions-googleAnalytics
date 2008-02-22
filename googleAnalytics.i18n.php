@@ -64,6 +64,13 @@ $messages['no'] = array(
 	'googleanalytics-desc' => 'Setter inn Google Analytics-skrift (ga.js)  på MediaWiki-sider for sporing',
 );
 
+/** Russian (Русский)
+ * @author .:Ajvol:.
+ */
+$messages['ru'] = array(
+	'googleanalytics-desc' => 'Вставляет скрипт Google Analytics (ga.js) в страницы MediaWiki',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
