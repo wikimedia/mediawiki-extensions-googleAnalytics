@@ -64,6 +64,13 @@ $messages['no'] = array(
 	'googleanalytics-desc' => 'Setter inn Google Analytics-skrift (ga.js)  på MediaWiki-sider for sporing',
 );
 
+/** Occitan (Occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'googleanalytics-desc' => 'Ajusta un escript Google Analitic (ga.js) dins las paginas MediaWiki per las recèrcas.',
+);
+
 /** Russian (Русский)
  * @author .:Ajvol:.
  */
