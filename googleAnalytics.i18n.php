@@ -85,6 +85,13 @@ $messages['sk'] = array(
 	'googleanalytics-desc' => 'Vkladá sledovací skript Google Analytics (ga.js) do stránok MediaWiki',
 );
 
+/** Seeltersk (Seeltersk)
+ * @author Pyt
+ */
+$messages['stq'] = array(
+	'googleanalytics-desc' => 'Moaket dät Ienföigjen muugelk fon dät Google-Analytics-Skript (ga.js) ap MediaWiki-Sieden',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Vinhtantran
  */
