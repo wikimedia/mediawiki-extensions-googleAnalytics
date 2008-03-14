@@ -92,6 +92,13 @@ $messages['stq'] = array(
 	'googleanalytics-desc' => 'Moaket dät Ienföigjen muugelk fon dät Google-Analytics-Skript (ga.js) ap MediaWiki-Sieden',
 );
 
+/** Swedish (Svenska)
+ * @author M.M.S.
+ */
+$messages['sv'] = array(
+	'googleanalytics-desc' => 'Sätter in Google Analytics-skrift (ga.js)  på MediaWiki-sidor för spårning',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Vinhtantran
  */
