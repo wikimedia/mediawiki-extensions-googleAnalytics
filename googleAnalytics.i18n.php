@@ -94,9 +94,10 @@ $messages['stq'] = array(
 
 /** Swedish (Svenska)
  * @author M.M.S.
+ * @author Lejonel
  */
 $messages['sv'] = array(
-	'googleanalytics-desc' => 'Sätter in Google Analytics-skrift (ga.js)  på MediaWiki-sidor för spårning',
+	'googleanalytics-desc' => 'Lägger in ett skript från Google Analytics (ga.js) på MediaWiki-sidor för att spåra användare',
 );
 
 /** Vietnamese (Tiếng Việt)
