@@ -49,6 +49,13 @@ $messages['hsb'] = array(
 	'googleanalytics-desc' => 'Zasunje skript Google Analytics (ga.js) do stronow MediaWiki za wuslědźenje',
 );
 
+/** Marathi (मराठी)
+ * @author Kaustubh
+ */
+$messages['mr'] = array(
+	'googleanalytics-desc' => 'मिडियाविकि पानांमध्ये नजर ठेवण्यासाठी गूगल ऍनॅलिटिक्स स्क्रीप्ट (ga.js) वाढविते',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  * @author SPQRobin
