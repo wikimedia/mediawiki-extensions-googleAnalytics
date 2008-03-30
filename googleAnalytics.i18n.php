@@ -49,6 +49,13 @@ $messages['hsb'] = array(
 	'googleanalytics-desc' => 'Zasunje skript Google Analytics (ga.js) do stronow MediaWiki za wuslědźenje',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'googleanalytics-desc' => 'Setzt e Google Analytics Script (ga.js) a MediaWiki-Säite fir Recherchen zouzeloossen',
+);
+
 /** Marathi (मराठी)
  * @author Kaustubh
  */
