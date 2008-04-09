@@ -42,6 +42,13 @@ $messages['fr'] = array(
 	'googleanalytics-desc' => 'Ajoute un script Google Analytique (ga.js) dans les pages MediaWiki pour les recherches.',
 );
 
+/** Hindi (हिन्दी)
+ * @author Kaustubh
+ */
+$messages['hi'] = array(
+	'googleanalytics-desc' => 'मिडियाविकि पन्नोंमें नजर रखने के लिये गूगल ऍनॅलिटिक्स स्क्रीप्ट (ga.js) बढाता हैं',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
