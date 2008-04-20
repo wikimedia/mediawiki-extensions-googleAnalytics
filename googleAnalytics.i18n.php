@@ -92,6 +92,13 @@ $messages['oc'] = array(
 	'googleanalytics-desc' => 'Ajusta un escript Google Analitic (ga.js) dins las paginas MediaWiki per las recèrcas.',
 );
 
+/** Portuguese (Português)
+ * @author Malafaya
+ */
+$messages['pt'] = array(
+	'googleanalytics-desc' => 'Insere o script Google Analytics (ga.js) nas páginas MediaWiki para rastreio',
+);
+
 /** Russian (Русский)
  * @author .:Ajvol:.
  */
