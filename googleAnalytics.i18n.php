@@ -128,6 +128,13 @@ $messages['sv'] = array(
 	'googleanalytics-desc' => 'Lägger in ett skript från Google Analytics (ga.js) på MediaWiki-sidor för att spåra användare',
 );
 
+/** Vèneto (Vèneto)
+ * @author Candalua
+ */
+$messages['vec'] = array(
+	'googleanalytics-desc' => 'Inserìssi script de Google Analytics (ga.js) drento le pagine MediaWiki par far tracking',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Vinhtantran
  */
