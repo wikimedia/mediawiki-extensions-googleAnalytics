@@ -42,6 +42,13 @@ $messages['fr'] = array(
 	'googleanalytics-desc' => 'Ajoute un script Google Analytique (ga.js) dans les pages MediaWiki pour les recherches.',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'googleanalytics-desc' => 'Insire a escritura do Google Analytics (ga.js) nas páxinas MediaWiki para facer un seguimento',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
@@ -54,6 +61,13 @@ $messages['hi'] = array(
  */
 $messages['hsb'] = array(
 	'googleanalytics-desc' => 'Zasunje skript Google Analytics (ga.js) do stronow MediaWiki za wuslědźenje',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author Rex
+ */
+$messages['id'] = array(
+	'googleanalytics-desc' => 'Menambahkan skrip Google Analytics (ga.js) ke halaman-halaman MediaWiki untuk tujuan penjejakan',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
