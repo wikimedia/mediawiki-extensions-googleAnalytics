@@ -92,7 +92,7 @@ $messages['nl'] = array(
 	'googleanalytics-desc' => "Voegt het script voor Google Analytics (ga.js) toe in MediaWiki-pagina's voor tracking",
 );
 
-/** Norwegian (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
