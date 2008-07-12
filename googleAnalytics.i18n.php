@@ -35,6 +35,13 @@ $messages['de'] = array(
 	'googleanalytics-desc' => 'Ermöglicht das Einbinden des Google-Analytics-Skript (ga.js) auf Seiten',
 );
 
+/** Finnish (Suomi)
+ * @author Str4nd
+ */
+$messages['fi'] = array(
+	'googleanalytics-desc' => 'Lisää Google Analytics -skriptin (ga.js) MediaWikin sivuille käyttäjien seurantaa varten',
+);
+
 /** French (Français)
  * @author Grondin
  */
