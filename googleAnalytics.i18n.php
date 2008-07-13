@@ -37,9 +37,10 @@ $messages['de'] = array(
 
 /** Finnish (Suomi)
  * @author Str4nd
+ * @author Nike
  */
 $messages['fi'] = array(
-	'googleanalytics-desc' => 'Lisää Google Analytics -skriptin (ga.js) MediaWikin sivuille käyttäjien seurantaa varten',
+	'googleanalytics-desc' => 'Lisää Google Analytics -seurantakoodin (ga.js) MediaWikin sivuille käyttäjien seurantaa varten.',
 );
 
 /** French (Français)
