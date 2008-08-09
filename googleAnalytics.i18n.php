@@ -36,8 +36,8 @@ $messages['de'] = array(
 );
 
 /** Finnish (Suomi)
- * @author Str4nd
  * @author Nike
+ * @author Str4nd
  */
 $messages['fi'] = array(
 	'googleanalytics-desc' => 'Lisää Google Analytics -seurantakoodin (ga.js) MediaWikin sivuille käyttäjien seurantaa varten.',
@@ -93,8 +93,8 @@ $messages['mr'] = array(
 );
 
 /** Dutch (Nederlands)
- * @author Siebrand
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
 	'googleanalytics-desc' => "Voegt het script voor Google Analytics (ga.js) toe in MediaWiki-pagina's voor tracking",
@@ -143,8 +143,8 @@ $messages['stq'] = array(
 );
 
 /** Swedish (Svenska)
- * @author M.M.S.
  * @author Lejonel
+ * @author M.M.S.
  */
 $messages['sv'] = array(
 	'googleanalytics-desc' => 'Lägger in ett skript från Google Analytics (ga.js) på MediaWiki-sidor för att spåra användare',
