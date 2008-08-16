@@ -14,6 +14,13 @@ $messages['en'] = array(
 	'googleanalytics-desc' => 'Inserts Google Analytics script (ga.js) in to MediaWiki pages for tracking',
 );
 
+/** Message documentation (Message documentation)
+ * @author Purodha
+ */
+$messages['qqq'] = array(
+	'googleanalytics-desc' => 'Short description of this extension, shown on [[Special:Version]]. Do not translate or change links.',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
@@ -76,6 +83,13 @@ $messages['hsb'] = array(
  */
 $messages['id'] = array(
 	'googleanalytics-desc' => 'Menambahkan skrip Google Analytics (ga.js) ke halaman-halaman MediaWiki untuk tujuan penjejakan',
+);
+
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'googleanalytics-desc' => 'Deit dat <i lang="en">Google Analytics</i> Projrämmsche (<code>ga.js</code>) in Sigge fum MediaWiki zom Verfollje.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
