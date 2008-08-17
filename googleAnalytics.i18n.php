@@ -78,6 +78,13 @@ $messages['hsb'] = array(
 	'googleanalytics-desc' => 'Zasunje skript Google Analytics (ga.js) do stronow MediaWiki za wuslědźenje',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'googleanalytics-desc' => 'Insere le script de Google Analytics (ga.js) in le paginas de MediaWiki pro facer traciamento',
+);
+
 /** Indonesian (Bahasa Indonesia)
  * @author Rex
  */
