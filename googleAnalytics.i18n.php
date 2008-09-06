@@ -28,6 +28,13 @@ $messages['ar'] = array(
 	'googleanalytics-desc' => 'يضيف سكريبت جوجل التحليلي (ga.js) إلى صفحات الميدياويكي للتتبع',
 );
 
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
+$messages['arz'] = array(
+	'googleanalytics-desc' => 'يضيف سكريبت جوجل التحليلى (ga.js) إلى صفحات الميدياويكى للتتبع',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
