@@ -139,7 +139,7 @@ $messages['no'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
-	'googleanalytics-desc' => 'Apondís un escript Google Analitic (ga.js) dins las paginas MediaWiki per las recèrcas.',
+	'googleanalytics-desc' => 'Apond un escript Google Analitic (ga.js) dins las paginas MediaWiki per las recèrcas.',
 );
 
 /** Portuguese (Português)
