@@ -71,6 +71,13 @@ $messages['gl'] = array(
 	'googleanalytics-desc' => 'Insire a escritura do Google Analytics (ga.js) nas páxinas MediaWiki para facer un seguimento',
 );
 
+/** Hebrew (עברית)
+ * @author YaronSh
+ */
+$messages['he'] = array(
+	'googleanalytics-desc' => 'מוסיף סקריפט של Google Analytics (ga.js) אל עמודי המדיה־ויקי לצורכי מעקב.',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
