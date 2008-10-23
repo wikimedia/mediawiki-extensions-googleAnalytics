@@ -72,10 +72,11 @@ $messages['gl'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Rotemliss
  * @author YaronSh
  */
 $messages['he'] = array(
-	'googleanalytics-desc' => 'מוסיף סקריפט של Google Analytics (ga.js) אל עמודי המדיה־ויקי לצורכי מעקב.',
+	'googleanalytics-desc' => 'הוספת סקריפט של Google Analytics (בשם ga.js) לעמודי מדיה־ויקי לצורכי מעקב.',
 );
 
 /** Hindi (हिन्दी)
