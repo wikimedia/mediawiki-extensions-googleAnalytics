@@ -49,6 +49,13 @@ $messages['de'] = array(
 	'googleanalytics-desc' => 'Ermöglicht das Einbinden des Google-Analytics-Skript (ga.js) auf Seiten',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'googleanalytics-desc' => 'Zasuwa skript Google Analytics (ga.js) do bokow MediaWiki za slědowanje',
+);
+
 /** Finnish (Suomi)
  * @author Nike
  * @author Str4nd
