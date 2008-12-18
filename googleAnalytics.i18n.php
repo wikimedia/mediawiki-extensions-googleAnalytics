@@ -121,6 +121,13 @@ $messages['id'] = array(
 	'googleanalytics-desc' => 'Menambahkan skrip Google Analytics (ga.js) ke halaman-halaman MediaWiki untuk tujuan penjejakan',
 );
 
+/** Japanese (日本語)
+ * @author Fryed-peach
+ */
+$messages['ja'] = array(
+	'googleanalytics-desc' => '利用者追尾のために Google Analytics のスクリプト (ga.js) を MediaWiki のページに挿入する',
+);
+
 /** Ripoarisch (Ripoarisch)
  * @author Purodha
  */
