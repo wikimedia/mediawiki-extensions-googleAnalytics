@@ -178,6 +178,13 @@ $messages['pt'] = array(
 	'googleanalytics-desc' => 'Insere o script Google Analytics (ga.js) nas páginas MediaWiki para rastreio',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'googleanalytics-desc' => "Mitte 'nu script de Google Analitycs (ga.js) jndr'à le pàggene de MediaUicchi pe farle traccià",
+);
+
 /** Russian (Русский)
  * @author Александр Сигачёв
  */
