@@ -107,6 +107,13 @@ $messages['hsb'] = array(
 	'googleanalytics-desc' => 'Zasunje skript Google Analytics (ga.js) do stronow MediaWiki za wuslědźenje',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'googleanalytics-desc' => 'Google Analytics szkript (ga.js) hozzáfűzése a MediaWiki lapokhoz nyomkövetéshez',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
