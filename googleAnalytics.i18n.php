@@ -56,6 +56,13 @@ $messages['dsb'] = array(
 	'googleanalytics-desc' => 'Zasuwa skript Google Analytics (ga.js) do bokow MediaWiki za slědowanje',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'googleanalytics-desc' => 'Enmetas skripton de Google Analytics (ga.js) en paĝoj de MediaWiki por patrolado',
+);
+
 /** Spanish (Español)
  * @author Sanbec
  */
