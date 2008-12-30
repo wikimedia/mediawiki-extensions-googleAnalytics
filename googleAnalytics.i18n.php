@@ -193,6 +193,13 @@ $messages['oc'] = array(
 	'googleanalytics-desc' => 'Apond un escript Google Analitic (ga.js) dins las paginas MediaWiki per las recèrcas.',
 );
 
+/** Polish (Polski)
+ * @author Leinad
+ */
+$messages['pl'] = array(
+	'googleanalytics-desc' => 'Wstawia skrypt Google Analytics (ga.js) do stron MediaWiki w celu śledzenia',
+);
+
 /** Portuguese (Português)
  * @author Malafaya
  */
