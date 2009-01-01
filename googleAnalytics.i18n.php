@@ -163,6 +163,13 @@ $messages['mr'] = array(
 	'googleanalytics-desc' => 'मिडियाविकि पानांमध्ये नजर ठेवण्यासाठी गूगल ऍनॅलिटिक्स स्क्रीप्ट (ga.js) वाढविते',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Diagramma Della Verita
+ */
+$messages['ms'] = array(
+	'googleanalytics-desc' => "Meletakkan skrip ''Google Analytics'' (ga.js) dalam laman MediaWiki untuk diteliti dan disahkan",
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
