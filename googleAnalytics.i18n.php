@@ -70,6 +70,13 @@ $messages['es'] = array(
 	'googleanalytics-desc' => 'Inserta el guión de Google Analytics (ga.js) en las páginas de MediaWiki para su seguimiento',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'googleanalytics-desc' => 'Google Analytics scriptak (ga.js) txertatu MediaWiki orrietan jarraipenerako',
+);
+
 /** Finnish (Suomi)
  * @author Nike
  * @author Str4nd
@@ -248,6 +255,13 @@ $messages['stq'] = array(
  */
 $messages['sv'] = array(
 	'googleanalytics-desc' => 'Lägger in ett skript från Google Analytics (ga.js) på MediaWiki-sidor för att spåra användare',
+);
+
+/** Turkish (Türkçe)
+ * @author Joseph
+ */
+$messages['tr'] = array(
+	'googleanalytics-desc' => 'MedyaViki sayfalarını izlemek için Google Analytics scriptini (ga.js) ekler',
 );
 
 /** Vèneto (Vèneto)
