@@ -249,6 +249,13 @@ $messages['stq'] = array(
 	'googleanalytics-desc' => 'Moaket dät Ienföigjen muugelk fon dät Google-Analytics-Skript (ga.js) ap MediaWiki-Sieden',
 );
 
+/** Sundanese (Basa Sunda)
+ * @author Kandar
+ */
+$messages['su'] = array(
+	'googleanalytics-desc' => 'Ngasupkeun skrip Google Analytics (ga.js) kana kaca-kaca MediaWiki pikeun ngalacak',
+);
+
 /** Swedish (Svenska)
  * @author Lejonel
  * @author M.M.S.
@@ -276,5 +283,12 @@ $messages['vec'] = array(
  */
 $messages['vi'] = array(
 	'googleanalytics-desc' => 'Chèn mã Google Analytics (ga.js) vào các trang MediaWiki để dò tìm',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Wmr89502270
+ */
+$messages['zh-hans'] = array(
+	'googleanalytics-desc' => '为跟踪用户而插入Google分析脚本（ga.js）到MedaiWiki页面',
 );
 
