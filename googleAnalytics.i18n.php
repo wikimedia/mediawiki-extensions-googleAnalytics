@@ -99,6 +99,13 @@ $messages['gl'] = array(
 	'googleanalytics-desc' => 'Insire a escritura do Google Analytics (ga.js) nas páxinas MediaWiki para facer un seguimento',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'googleanalytics-desc' => 'Macht s Yybinde vum Google-Analytics-Skript (ga.js) uf Syte megli',
+);
+
 /** Hebrew (עברית)
  * @author Rotemliss
  * @author YaronSh
@@ -269,6 +276,13 @@ $messages['su'] = array(
  */
 $messages['sv'] = array(
 	'googleanalytics-desc' => 'Lägger in ett skript från Google Analytics (ga.js) på MediaWiki-sidor för att spåra användare',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'googleanalytics-desc' => 'Nagdaragdag ng panitik (ga.js) ng Google Analytics sa loob ng mga pahina ng MediaWiki para sa pagtunton ng bakas',
 );
 
 /** Turkish (Türkçe)
