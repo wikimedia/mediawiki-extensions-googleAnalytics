@@ -42,6 +42,13 @@ $messages['bg'] = array(
 	'googleanalytics-desc' => 'Вмъква скрипт на Google Analytics (ga.js) в страниците на МедияУики',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'googleanalytics-desc' => 'Ubacuje skriptu Google Analytics (ga.js) u stranicu MediaWiki za praćenje',
+);
+
 /** German (Deutsch)
  * @author Raimond Spekking
  */
