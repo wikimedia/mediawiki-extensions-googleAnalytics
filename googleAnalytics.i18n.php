@@ -128,6 +128,13 @@ $messages['hi'] = array(
 	'googleanalytics-desc' => 'मिडियाविकि पन्नोंमें नजर रखने के लिये गूगल ऍनॅलिटिक्स स्क्रीप्ट (ga.js) बढाता हैं',
 );
 
+/** Croatian (Hrvatski)
+ * @author Suradnik13
+ */
+$messages['hr'] = array(
+	'googleanalytics-desc' => 'Umetni skriptu Google Analytics (ga.js) za praćenje na stranice MediaWikija',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
