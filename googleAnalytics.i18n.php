@@ -299,6 +299,13 @@ $messages['sv'] = array(
 	'googleanalytics-desc' => 'Lägger in ett skript från Google Analytics (ga.js) på MediaWiki-sidor för att spåra användare',
 );
 
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'googleanalytics-desc' => 'గూగుల్ అనలిటిక్స్ స్క్రిప్టు (ga.js)ని మీడియావికీ పేజీలకి చేరుస్తుంది',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
