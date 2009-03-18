@@ -163,6 +163,13 @@ $messages['id'] = array(
 	'googleanalytics-desc' => 'Menambahkan skrip Google Analytics (ga.js) ke halaman-halaman MediaWiki untuk tujuan penjejakan',
 );
 
+/** Italian (Italiano)
+ * @author Pietrodn
+ */
+$messages['it'] = array(
+	'googleanalytics-desc' => 'Inserisce lo script di Google Analytics (ga.js) nelle pagine MediaWiki per il monitoraggio',
+);
+
 /** Japanese (日本語)
  * @author Fryed-peach
  */
