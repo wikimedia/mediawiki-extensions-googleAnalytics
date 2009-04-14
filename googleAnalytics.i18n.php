@@ -291,6 +291,13 @@ $messages['sq'] = array(
 	'googleanalytics-desc' => 'Vendosë skriptën e  Google Analytics (ga.js) në faqet për përcjellje të MediaWiki',
 );
 
+/** Serbian Cyrillic ekavian (ћирилица)
+ * @author Михајло Анђелковић
+ */
+$messages['sr-ec'] = array(
+	'googleanalytics-desc' => 'Убацује Гуглову Аналитичку скрипту (ga-js) у стране вашег МедијаВикија, зарад праћења',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
