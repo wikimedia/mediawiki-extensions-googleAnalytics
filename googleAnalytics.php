@@ -4,6 +4,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 $wgExtensionCredits['other'][] = array(
+	'path'           => __FILE__,
 	'name'           => 'Google Analytics Integration',
 	'version'        => '2.0.1',
 	'author'         => 'Tim Laqua',
