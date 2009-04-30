@@ -35,6 +35,13 @@ $messages['arz'] = array(
 	'googleanalytics-desc' => 'يضيف سكريبت جوجل التحليلى (ga.js) إلى صفحات الميدياويكى للتتبع',
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
+ */
+$messages['be-tarask'] = array(
+	'googleanalytics-desc' => 'Уставіць скрыпт Google Analytics (ga.js) у старонку MediaWiki для сачэньня',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
