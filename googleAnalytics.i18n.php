@@ -56,6 +56,13 @@ $messages['bs'] = array(
 	'googleanalytics-desc' => 'Ubacuje skriptu Google Analytics (ga.js) u stranicu MediaWiki za praćenje',
 );
 
+/** Catalan (Català)
+ * @author Solde
+ */
+$messages['ca'] = array(
+	'googleanalytics-desc' => "Inserta l'script de Google Analytics (ga.js) a les pàgines de MediaWiki per a controlar",
+);
+
 /** German (Deutsch)
  * @author Raimond Spekking
  */
