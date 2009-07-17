@@ -263,6 +263,13 @@ $messages['pl'] = array(
 	'googleanalytics-desc' => 'Wstawia skrypt Google Analytics (ga.js) do stron MediaWiki w celu śledzenia',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'googleanalytics-desc' => 'A ansëriss jë script ëd Google Analytics (ga.js) ant le pàgine Mediawiki për fé ël "tracking"',
+);
+
 /** Portuguese (Português)
  * @author Malafaya
  */
