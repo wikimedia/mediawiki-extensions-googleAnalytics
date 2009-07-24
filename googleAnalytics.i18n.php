@@ -142,6 +142,13 @@ $messages['hi'] = array(
 	'googleanalytics-desc' => 'मिडियाविकि पन्नोंमें नजर रखने के लिये गूगल ऍनॅलिटिक्स स्क्रीप्ट (ga.js) बढाता हैं',
 );
 
+/** Hiligaynon (Ilonggo)
+ * @author Tagimata
+ */
+$messages['hil'] = array(
+	'googleanalytics-desc' => 'Nagabutang Google Analytics script (ga.js) sa may MediaWiki pahina para matalupangdan',
+);
+
 /** Croatian (Hrvatski)
  * @author Suradnik13
  */
