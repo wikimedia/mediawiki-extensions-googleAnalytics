@@ -326,6 +326,13 @@ $messages['sr-ec'] = array(
 	'googleanalytics-desc' => 'Убацује Гуглову Аналитичку скрипту (ga-js) у стране вашег МедијаВикија, зарад праћења',
 );
 
+/** latinica (latinica)
+ * @author Michaello
+ */
+$messages['sr-el'] = array(
+	'googleanalytics-desc' => 'Ubacuje Guglovu Analitičku skriptu (ga-js) u strane vašeg MedijaVikija, zarad praćenja',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
