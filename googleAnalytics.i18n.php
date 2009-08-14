@@ -212,6 +212,13 @@ $messages['lb'] = array(
 	'googleanalytics-desc' => 'Setzt e Google Analytics Script (ga.js) a MediaWiki-Säite fir Recherchen zouzeloossen',
 );
 
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'googleanalytics-desc' => 'Вметнува скрипта од Google Analytics (ga.js) во МедијаВики страници за следење',
+);
+
 /** Marathi (मराठी)
  * @author Kaustubh
  */
