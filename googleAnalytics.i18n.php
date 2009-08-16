@@ -195,7 +195,7 @@ $messages['it'] = array(
  * @author Fryed-peach
  */
 $messages['ja'] = array(
-	'googleanalytics-desc' => '利用者追尾のために Google Analytics のスクリプト (ga.js) を MediaWiki のページに挿入する',
+	'googleanalytics-desc' => '利用者追尾のために Google Analytics のスクリプト （ga.js） を MediaWiki のページに挿入する',
 );
 
 /** Ripoarisch (Ripoarisch)
