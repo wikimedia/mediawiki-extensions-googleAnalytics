@@ -49,6 +49,13 @@ $messages['bg'] = array(
 	'googleanalytics-desc' => 'Вмъква скрипт на Google Analytics (ga.js) в страниците на МедияУики',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'googleanalytics-desc' => 'Ouzhpennañ a ra ur skript Google Analytics script (ga.js) er pajennoù MediaWiki evit klask',
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
