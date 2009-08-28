@@ -21,6 +21,13 @@ $messages['qqq'] = array(
 	'googleanalytics-desc' => 'Short description of this extension, shown on [[Special:Version]]. Do not translate or change links.',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'googleanalytics-desc' => 'Voeg die skrip vir Google Analytics (ga.js) in MediaWiki-bladsye vir naspoor doeleindes',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
