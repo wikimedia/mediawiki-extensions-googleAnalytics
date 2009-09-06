@@ -71,10 +71,11 @@ $messages['bs'] = array(
 );
 
 /** Catalan (Català)
+ * @author Aleator
  * @author Solde
  */
 $messages['ca'] = array(
-	'googleanalytics-desc' => "Inserta l'script de Google Analytics (ga.js) a les pàgines de MediaWiki per a controlar",
+	'googleanalytics-desc' => "Inserta l'script de Google Analytics (ga.js) a les pàgines de MediaWiki per al seu seguiment",
 );
 
 /** Danish (Dansk)
