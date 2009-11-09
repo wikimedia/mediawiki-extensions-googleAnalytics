@@ -412,6 +412,13 @@ $messages['tr'] = array(
 	'googleanalytics-desc' => 'MedyaViki sayfalarını izlemek için Google Analytics scriptini (ga.js) ekler',
 );
 
+/** Ukrainian (Українська)
+ * @author Prima klasy4na
+ */
+$messages['uk'] = array(
+	'googleanalytics-desc' => 'Додає скрипт Google Analytics (ga.js) на сторінки MediaWiki для відстеження',
+);
+
 /** Vèneto (Vèneto)
  * @author Candalua
  */
