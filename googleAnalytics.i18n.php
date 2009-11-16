@@ -327,6 +327,13 @@ $messages['pt-br'] = array(
 	'googleanalytics-desc' => 'Insere o script Google Analytics (ga.js) nas páginas MediaWiki para rastreio',
 );
 
+/** Rhaeto-Romance (Rumantsch)
+ * @author Gion-andri
+ */
+$messages['rm'] = array(
+	'googleanalytics-desc' => 'Agiunta a las paginas da MediaWiki in script da Google Analytics (ga.js)',
+);
+
 /** Tarandíne (Tarandíne)
  * @author Joetaras
  */
