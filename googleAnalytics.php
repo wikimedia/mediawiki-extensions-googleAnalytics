@@ -29,6 +29,8 @@ function efGoogleAnalyticsASAC( &$parser, &$text ) {
 	if( !empty($wgGoogleAnalyticsAccount) && $wgGoogleAnalyticsAddASAC ) {
 		$wgOut->addScript('<script>window.google_analytics_uacct = "' . $wgGoogleAnalyticsAccount . '";</script>');
 	}
+
+	return true;
 }
 
 function efGoogleAnalyticsHookText(&$skin, &$text='') {
