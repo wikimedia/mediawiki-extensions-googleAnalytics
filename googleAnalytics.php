@@ -24,7 +24,7 @@ $wgGoogleAnalyticsIgnoreSysops = true;
 $wgGoogleAnalyticsIgnoreBots = true;
 
 function efGoogleAnalyticsASAC( &$parser, &$text ) {
-	global $wgOut;
+	global $wgOut, $wgGoogleAnalyticsAccount, $wgGoogleAnalyticsAddASAC;
 
 	if( !empty($wgGoogleAnalyticsAccount) && $wgGoogleAnalyticsAddASAC ) {
 		$wgOut->addScript('<script>window.google_analytics_uacct = "' . $wgGoogleAnalyticsAccount . '";</script>');
