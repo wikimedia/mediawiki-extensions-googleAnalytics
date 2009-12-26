@@ -447,3 +447,10 @@ $messages['zh-hans'] = array(
 	'googleanalytics-desc' => '为跟踪用户而插入Google分析脚本（ga.js）到MedaiWiki页面',
 );
 
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Liangent
+ */
+$messages['zh-hant'] = array(
+	'googleanalytics-desc' => '為跟蹤用戶而插入Google分析腳本（ga.js）到MedaiWiki頁面',
+);
+
