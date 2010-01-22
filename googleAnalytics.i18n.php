@@ -179,7 +179,7 @@ $messages['hil'] = array(
 );
 
 /** Croatian (Hrvatski)
- * @author Suradnik13
+ * @author Ex13
  */
 $messages['hr'] = array(
 	'googleanalytics-desc' => 'Umetni skriptu Google Analytics (ga.js) za praćenje na stranice MediaWikija',
