@@ -8,8 +8,7 @@ $wgExtensionCredits['other'][] = array(
 	'name'           => 'Google Analytics Integration',
 	'version'        => '2.0.2',
 	'author'         => 'Tim Laqua',
-	'description'    => 'Inserts Google Analytics script (ga.js) in to MediaWiki pages for tracking.',
-	'descriptionurl' => 'googleanalytics-desc',
+	'descriptionmsg' => 'googleanalytics-desc',
 	'url'            => 'http://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
 );
 
