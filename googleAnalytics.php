@@ -49,7 +49,6 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
 </script>
 <script type="text/javascript">
 var pageTracker = _gat._getTracker("{$wgGoogleAnalyticsAccount}");
-pageTracker._initData();
 pageTracker._trackPageview();
 </script>
 GASCRIPT;
