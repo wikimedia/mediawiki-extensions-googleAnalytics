@@ -227,7 +227,7 @@ $messages['ja'] = array(
 	'googleanalytics-desc' => '利用者追尾のために Google Analytics のスクリプト (ga.js) を MediaWiki のページに挿入する',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
@@ -327,7 +327,7 @@ $messages['pt-br'] = array(
 	'googleanalytics-desc' => 'Insere o script Google Analytics (ga.js) nas páginas MediaWiki para rastreio',
 );
 
-/** Rhaeto-Romance (Rumantsch)
+/** Romansh (Rumantsch)
  * @author Gion-andri
  */
 $messages['rm'] = array(
