@@ -28,6 +28,13 @@ $messages['af'] = array(
 	'googleanalytics-desc' => 'Voeg die skrip vir Google Analytics (ga.js) in MediaWiki-bladsye vir naspoor doeleindes',
 );
 
+/** Gheg Albanian (Gegë)
+ * @author Mdupont
+ */
+$messages['aln'] = array(
+	'googleanalytics-desc' => 'Inserts Google Analytics script (ga.js) në të faqeve MediaWiki për ndjekjen e',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
