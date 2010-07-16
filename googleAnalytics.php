@@ -32,7 +32,7 @@ function efGoogleAnalyticsASAC( &$parser, &$text ) {
 	return true;
 }
 
-function efGoogleAnalyticsHookText(&$skin, &$text='') {
+function efGoogleAnalyticsHookText($skin, &$text='') {
 	$text .= efAddGoogleAnalytics();
 	return true;
 }
