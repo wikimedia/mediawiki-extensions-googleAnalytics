@@ -434,6 +434,13 @@ $messages['tr'] = array(
 	'googleanalytics-desc' => 'MedyaViki sayfalarını izlemek için Google Analytics scriptini (ga.js) ekler',
 );
 
+/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Ильнар
+ */
+$messages['tt-cyrl'] = array(
+	'googleanalytics-desc' => 'Google Analytics скриптын (ga.js) MediaWiki битләренә куя',
+);
+
 /** Ukrainian (Українська)
  * @author Prima klasy4na
  */
