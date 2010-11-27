@@ -250,6 +250,13 @@ $messages['lb'] = array(
 	'googleanalytics-desc' => 'Setzt e Google Analytics Script (ga.js) a MediaWiki-Säite fir Recherchen zouzeloossen',
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Garas
+ */
+$messages['lt'] = array(
+	'googleanalytics-desc' => 'Įterpia „Google Analytics“ stebėjimo scenarijų (ga.js) į MediaWiki puslapius',
+);
+
 /** Latvian (Latviešu)
  * @author Xil
  */
