@@ -428,6 +428,13 @@ $messages['te'] = array(
 	'googleanalytics-desc' => 'గూగుల్ అనలిటిక్స్ స్క్రిప్టు (ga.js)ని మీడియావికీ పేజీలకి చేరుస్తుంది',
 );
 
+/** Thai (ไทย)
+ * @author Octahedron80
+ */
+$messages['th'] = array(
+	'googleanalytics-desc' => 'แทรกสคริปต์ Google Analytics (ga.js) ในหน้าต่าง ๆ ของมีเดียวิกิสำหรับการติดตาม',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
