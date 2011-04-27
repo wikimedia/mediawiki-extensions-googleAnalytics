@@ -378,6 +378,13 @@ $messages['sk'] = array(
 	'googleanalytics-desc' => 'Vkladá sledovací skript Google Analytics (ga.js) do stránok MediaWiki',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'googleanalytics-desc' => 'Vstavi skript Google Analytics (ga.js) na strani MediaWiki za sledenje',
+);
+
 /** Albanian (Shqip)
  * @author Puntori
  */
