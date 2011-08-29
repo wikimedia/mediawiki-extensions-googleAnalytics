@@ -51,6 +51,13 @@ $messages['arz'] = array(
 	'googleanalytics-desc' => 'يضيف سكريبت جوجل التحليلى (ga.js) إلى صفحات الميدياويكى للتتبع',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'googleanalytics-desc' => 'Inxerta el script de Google Analytics (ga.js) nes páxines de MediaWiki pal so siguimientu',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
