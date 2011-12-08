@@ -32,17 +32,26 @@ function efGoogleAnalyticsASAC( &$parser, &$text ) {
 	return true;
 }
 
-function efGoogleAnalyticsHookText($skin, &$text='') {
+function efGoogleAnalyticsHookText( $skin, &$text='' ) {
 	$text .= efAddGoogleAnalytics();
 	return true;
 }
 
 function efAddGoogleAnalytics() {
 	global $wgGoogleAnalyticsAccount, $wgGoogleAnalyticsIgnoreSysops, $wgGoogleAnalyticsIgnoreBots, $wgUser;
-	if (!$wgUser->isAllowed('bot') || !$wgGoogleAnalyticsIgnoreBots) {
-		if (!$wgUser->isAllowed('protect') || !$wgGoogleAnalyticsIgnoreSysops) {
-			if ( !empty($wgGoogleAnalyticsAccount) ) {
-				$funcOutput = <<<GASCRIPT
+	if ( $wgUser->isAllowed( 'bot' ) && $wgGoogleAnalyticsIgnoreBots ) {
+		return "\n<!-- Google Analytics tracking is disabled for bots -->";
+	}
+
+	if ( $wgUser->isAllowed( 'protect' ) && $wgGoogleAnalyticsIgnoreSysops ) {
+		return "\n<!-- Google Analytics tracking is disabled for users with 'protect' rights (I.E. sysops) -->";
+	}
+
+	if ( $wgGoogleAnalyticsAccount === '' ) {
+		return "\n<!-- Set \$wgGoogleAnalyticsAccount to your account # provided by Google Analytics. -->";
+	}
+
+	return <<<HTML
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -51,18 +60,7 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
 var pageTracker = _gat._getTracker("{$wgGoogleAnalyticsAccount}");
 pageTracker._trackPageview();
 </script>
-GASCRIPT;
-			} else {
-				$funcOutput = "\n<!-- Set \$wgGoogleAnalyticsAccount to your account # provided by Google Analytics. -->";
-			}
-		} else {
-			$funcOutput = "\n<!-- Google Analytics tracking is disabled for users with 'protect' rights (I.E. sysops) -->";
-		}
-	} else {
-		$funcOutput = "\n<!-- Google Analytics tracking is disabled for bots -->";
-	}
-
-	return $funcOutput;
+HTML;
 }
 
 ///Alias for efAddGoogleAnalytics - backwards compatibility.
