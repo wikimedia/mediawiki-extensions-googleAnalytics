@@ -9,7 +9,7 @@ $wgExtensionCredits['other'][] = array(
 	'version'        => '2.0.2',
 	'author'         => 'Tim Laqua',
 	'descriptionmsg' => 'googleanalytics-desc',
-	'url'            => 'http://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
 );
 
 $wgExtensionMessagesFiles['googleAnalytics'] = dirname(__FILE__) . '/googleAnalytics.i18n.php';
