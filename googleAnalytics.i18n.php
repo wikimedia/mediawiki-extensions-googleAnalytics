@@ -311,7 +311,7 @@ $messages['nn'] = array(
  * @author Harald Khan
  * @author Jon Harald Søby
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'googleanalytics-desc' => 'Setter inn Google Analytics-skript (ga.js) på MediaWiki-sider for sporing',
 );
 
