@@ -292,6 +292,14 @@ $messages['ms'] = array(
 	'googleanalytics-desc' => "Meletakkan skrip ''Google Analytics'' (ga.js) dalam laman MediaWiki untuk diteliti dan disahkan",
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Harald Khan
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'googleanalytics-desc' => 'Setter inn Google Analytics-skript (ga.js) på MediaWiki-sider for sporing',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -302,17 +310,10 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'googleanalytics-desc' => 'Set inn eit skript frå Google Analytics (ga.js) på MediaWiki-sider for å spora brukarar.',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Harald Khan
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'googleanalytics-desc' => 'Setter inn Google Analytics-skript (ga.js) på MediaWiki-sider for sporing',
 );
 
 /** Occitan (Occitan)
