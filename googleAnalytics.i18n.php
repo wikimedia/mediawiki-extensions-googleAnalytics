@@ -478,7 +478,7 @@ $messages['tt-cyrl'] = array(
 	'googleanalytics-desc' => 'Google Analytics скриптын (ga.js) MediaWiki битләренә куя',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Prima klasy4na
  */
 $messages['uk'] = array(
