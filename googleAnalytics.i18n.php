@@ -243,6 +243,13 @@ $messages['ja'] = array(
 	'googleanalytics-desc' => '利用者追尾のために Google Analytics のスクリプト (ga.js) を MediaWiki のページに挿入する',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'googleanalytics-desc' => '추적을 위해 MediaWiki 페이지에 Google Analytics(ga.js)를 삽입',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
