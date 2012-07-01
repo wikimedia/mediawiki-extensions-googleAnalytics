@@ -58,7 +58,7 @@ $messages['ast'] = array(
 	'googleanalytics-desc' => 'Inxerta el script de Google Analytics (ga.js) nes páxines de MediaWiki pal so siguimientu',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -108,7 +108,7 @@ $messages['de'] = array(
 	'googleanalytics-desc' => 'Ermöglicht das Einbinden des Google-Analytics-Skript (ga.js) auf Seiten',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -158,7 +158,7 @@ $messages['fr'] = array(
 	'googleanalytics-desc' => 'Ajoute un script Google Analytique (ga.js) dans les pages MediaWiki pour les recherches.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -201,7 +201,7 @@ $messages['hr'] = array(
 	'googleanalytics-desc' => 'Umetni skriptu Google Analytics (ga.js) za praćenje na stranice MediaWikija',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
