@@ -299,9 +299,9 @@ $messages['ms'] = array(
 	'googleanalytics-desc' => "Meletakkan skrip ''Google Analytics'' (ga.js) dalam laman MediaWiki untuk diteliti dan disahkan",
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Harald Khan
- * @author Jon Harald Søby
+ * @author Njardarlogar
  */
 $messages['nb'] = array(
 	'googleanalytics-desc' => 'Setter inn Google Analytics-skript (ga.js) på MediaWiki-sider for sporing',
