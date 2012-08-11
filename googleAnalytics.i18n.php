@@ -143,6 +143,13 @@ $messages['eu'] = array(
 	'googleanalytics-desc' => 'Google Analytics scriptak (ga.js) txertatu MediaWiki orrietan jarraipenerako',
 );
 
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'googleanalytics-desc' => 'درج اسکریپت گوگل آنالیز (ga.js) در صفحه‌های مدیاویکی برای ردیابی',
+);
+
 /** Finnish (suomi)
  * @author Nike
  * @author Str4nd
