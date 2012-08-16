@@ -245,9 +245,10 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'googleanalytics-desc' => '利用者追尾のために Google Analytics のスクリプト (ga.js) を MediaWiki のページに挿入する',
+	'googleanalytics-desc' => '利用者追跡のために Google Analytics のスクリプト (ga.js) を MediaWiki のページに挿入する',
 );
 
 /** Korean (한국어)
