@@ -58,7 +58,7 @@ $messages['ast'] = array(
 	'googleanalytics-desc' => 'Inxerta el script de Google Analytics (ga.js) nes páxines de MediaWiki pal so siguimientu',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -307,7 +307,7 @@ $messages['ms'] = array(
 	'googleanalytics-desc' => "Meletakkan skrip ''Google Analytics'' (ga.js) dalam laman MediaWiki untuk diteliti dan disahkan",
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -323,7 +323,7 @@ $messages['nl'] = array(
 	'googleanalytics-desc' => "Voegt het script voor Google Analytics (ga.js) toe in MediaWiki-pagina's voor tracking",
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -415,14 +415,14 @@ $messages['sq'] = array(
 	'googleanalytics-desc' => 'Vendosë skriptën e  Google Analytics (ga.js) në faqet për përcjellje të MediaWiki',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'googleanalytics-desc' => 'Убацује Гуглову Аналитичку скрипту (ga-js) у стране вашег МедијаВикија, зарад праћења',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -507,14 +507,14 @@ $messages['vi'] = array(
 	'googleanalytics-desc' => 'Chèn mã Google Analytics (ga.js) vào các trang MediaWiki để dò tìm',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Wmr89502270
  */
 $messages['zh-hans'] = array(
 	'googleanalytics-desc' => '为跟踪用户而插入Google分析脚本（ga.js）到MedaiWiki页面',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Mark85296341
  */
