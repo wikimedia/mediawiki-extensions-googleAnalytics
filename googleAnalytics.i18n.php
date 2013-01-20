@@ -255,7 +255,7 @@ $messages['ja'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'googleanalytics-desc' => '추적을 위해 MediaWiki 페이지에 Google Analytics(ga.js)를 삽입',
+	'googleanalytics-desc' => '추적을 위해 미디어위키 문서에 Google 웹 로그 분석 스크립트(ga.js)를 삽입',
 );
 
 /** Colognian (Ripoarisch)
@@ -521,4 +521,3 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'googleanalytics-desc' => '為追蹤用戶而插入 Google 分析腳本（ga.js）到 MedaiWiki 頁面',
 );
-
