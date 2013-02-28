@@ -17,10 +17,11 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'googleanalytics-desc' => '{{desc}}',
+	'googleanalytics-desc' => '{{desc|name=google Analytics|url=http://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration}}',
 );
 
 /** Afrikaans (Afrikaans)
