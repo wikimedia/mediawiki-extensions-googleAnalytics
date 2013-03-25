@@ -95,6 +95,13 @@ $messages['ca'] = array(
 	'googleanalytics-desc' => "Inserta l'script de Google Analytics (ga.js) a les pàgines de MediaWiki per al seu seguiment",
 );
 
+/** Czech (česky)
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'googleanalytics-desc' => 'Vkládá do stránek MediaWiki skript Google Analytics (ga.js) pro sledování',
+);
+
 /** Danish (dansk)
  * @author Byrial
  */
