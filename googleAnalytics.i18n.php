@@ -13,6 +13,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'googleanalytics-desc' => 'Inserts Google Analytics script (ga.js) in to MediaWiki pages for tracking',
+	'right-noanalytics' => 'Exempted from Google Analytics tracking',
 );
 
 /** Message documentation (Message documentation)
@@ -22,6 +23,7 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'googleanalytics-desc' => '{{desc|name=google Analytics|url=http://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration}}',
+	'right-noanalytics' => '{{doc-right|noanalytics}}',
 );
 
 /** Afrikaans (Afrikaans)

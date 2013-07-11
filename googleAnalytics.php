@@ -19,6 +19,11 @@ $wgHooks['ParserAfterTidy'][] = 'efGoogleAnalyticsASAC';
 
 $wgGoogleAnalyticsAccount = "";
 $wgGoogleAnalyticsAddASAC = false;
+
+
+// These options are deprecated.
+// You should add the "noanalytics" right to the group
+// Ex: $wgGroupPermissions["sysop"]["noanalytics"] = true;
 $wgGoogleAnalyticsIgnoreSysops = true;
 $wgGoogleAnalyticsIgnoreBots = true;
 
@@ -39,12 +44,10 @@ function efGoogleAnalyticsHookText( $skin, &$text='' ) {
 
 function efAddGoogleAnalytics() {
 	global $wgGoogleAnalyticsAccount, $wgGoogleAnalyticsIgnoreSysops, $wgGoogleAnalyticsIgnoreBots, $wgUser;
-	if ( $wgUser->isAllowed( 'bot' ) && $wgGoogleAnalyticsIgnoreBots ) {
-		return "\n<!-- Google Analytics tracking is disabled for bots -->";
-	}
-
-	if ( $wgUser->isAllowed( 'protect' ) && $wgGoogleAnalyticsIgnoreSysops ) {
-		return "\n<!-- Google Analytics tracking is disabled for users with 'protect' rights (I.E. sysops) -->";
+	if ( $wgUser->isAllowed( 'noanalytics' ) ||
+		 $wgGoogleAnalyticsIgnoreBots && $wgUser->isAllowed( 'bot' ) ||
+		 $wgGoogleAnalyticsIgnoreSysops && $wgUser->isAllowed( 'protect' ) ) {
+		return "\n<!-- Google Analytics tracking is disabled for this user -->";
 	}
 
 	if ( $wgGoogleAnalyticsAccount === '' ) {
