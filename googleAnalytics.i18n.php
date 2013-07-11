@@ -112,10 +112,12 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Metalhead64
  * @author Raimond Spekking
  */
 $messages['de'] = array(
 	'googleanalytics-desc' => 'Ermöglicht das Einbinden des Google-Analytics-Skript (ga.js) auf Seiten',
+	'right-noanalytics' => 'Von der Google-Analytics-Verfolgung ausgenommen',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -170,10 +172,12 @@ $messages['fi'] = array(
 );
 
 /** French (français)
+ * @author Gomoko
  * @author Grondin
  */
 $messages['fr'] = array(
 	'googleanalytics-desc' => 'Ajoute un script Google Analytique (ga.js) dans les pages MediaWiki pour les recherches.',
+	'right-noanalytics' => 'Non-concerné par la trace de Google Analytics',
 );
 
 /** Galician (galego)
@@ -181,6 +185,7 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'googleanalytics-desc' => 'Insire a escritura do Google Analytics (ga.js) nas páxinas MediaWiki para facer un seguimento',
+	'right-noanalytics' => 'Exento do seguimento por parte do Google Analytics',
 );
 
 /** Swiss German (Alemannisch)
@@ -260,6 +265,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'googleanalytics-desc' => '利用者追跡のために Google Analytics のスクリプト (ga.js) を MediaWiki のページに挿入する',
+	'right-noanalytics' => 'Google Analytics による追跡から免除',
 );
 
 /** Korean (한국어)
@@ -302,6 +308,7 @@ $messages['lv'] = array(
  */
 $messages['mk'] = array(
 	'googleanalytics-desc' => 'Вметнува скрипта од Google Analytics (ga.js) во МедијаВики страници за следење',
+	'right-noanalytics' => 'Изземеност од следење на Google Аналитика',
 );
 
 /** Marathi (मराठी)
@@ -312,10 +319,12 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Diagramma Della Verita
  */
 $messages['ms'] = array(
 	'googleanalytics-desc' => "Meletakkan skrip ''Google Analytics'' (ga.js) dalam laman MediaWiki untuk diteliti dan disahkan",
+	'right-noanalytics' => 'Terkecuali dari dikesan oleh Google Analytics',
 );
 
 /** Norwegian Bokmål (norsk bokmål)
@@ -396,6 +405,7 @@ $messages['rm'] = array(
  */
 $messages['roa-tara'] = array(
 	'googleanalytics-desc' => "Mitte 'nu script de Google Analitycs (ga.js) jndr'à le pàggene de MediaUicchi pe farle traccià",
+	'right-noanalytics' => "Scartate da 'u tracciamende de Google Analytics",
 );
 
 /** Russian (русский)
