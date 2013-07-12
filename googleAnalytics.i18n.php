@@ -341,6 +341,7 @@ $messages['nb'] = array(
  */
 $messages['nl'] = array(
 	'googleanalytics-desc' => "Voegt het script voor Google Analytics (ga.js) toe in MediaWiki-pagina's voor volgen van gebruikershandelingen",
+	'right-noanalytics' => 'Vrijgesteld van volgen via Google Analytics',
 );
 
 /** Norwegian Nynorsk (norsk nynorsk)
@@ -467,9 +468,11 @@ $messages['su'] = array(
 /** Swedish (svenska)
  * @author Lejonel
  * @author M.M.S.
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'googleanalytics-desc' => 'Lägger in ett skript från Google Analytics (ga.js) på MediaWiki-sidor för att spåra användare',
+	'right-noanalytics' => 'Undantagen från Google Analytics-spårning',
 );
 
 /** Telugu (తెలుగు)
