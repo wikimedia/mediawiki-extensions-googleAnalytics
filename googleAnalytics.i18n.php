@@ -59,6 +59,7 @@ $messages['arz'] = array(
  */
 $messages['ast'] = array(
 	'googleanalytics-desc' => 'Inxerta el script de Google Analytics (ga.js) nes páxines de MediaWiki pal so siguimientu',
+	'right-noanalytics' => 'Llibre del siguimientu por Google Analytics',
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -368,9 +369,11 @@ $messages['os'] = array(
 
 /** Polish (polski)
  * @author Leinad
+ * @author Woytecr
  */
 $messages['pl'] = array(
 	'googleanalytics-desc' => 'Wstawia skrypt Google Analytics (ga.js) do stron MediaWiki w celu śledzenia',
+	'right-noanalytics' => 'Wyłączone ze śledzenia Google Analytics',
 );
 
 /** Piedmontese (Piemontèis)
@@ -428,6 +431,7 @@ $messages['sk'] = array(
  */
 $messages['sl'] = array(
 	'googleanalytics-desc' => 'Vstavi skript Google Analytics (ga.js) na strani MediaWiki za sledenje',
+	'right-noanalytics' => 'Izvzetost iz sledenja Google Analytics',
 );
 
 /** Albanian (shqip)
