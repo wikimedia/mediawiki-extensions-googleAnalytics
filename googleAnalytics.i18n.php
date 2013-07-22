@@ -64,9 +64,11 @@ $messages['ast'] = array(
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'googleanalytics-desc' => 'Уставіць скрыпт Google Analytics (ga.js) у старонку MediaWiki для сачэньня',
+	'right-noanalytics' => 'выключэньне з назіраньня ў Google Analytics',
 );
 
 /** Bulgarian (български)
