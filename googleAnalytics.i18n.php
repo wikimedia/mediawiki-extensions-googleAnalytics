@@ -276,6 +276,7 @@ $messages['ja'] = array(
  */
 $messages['ko'] = array(
 	'googleanalytics-desc' => '추적을 위해 미디어위키 문서에 Google 웹 로그 분석 스크립트(ga.js)를 삽입합니다',
+	'right-noanalytics' => 'Google 웹 로그 분석 추적에서 면제',
 );
 
 /** Colognian (Ripoarisch)
