@@ -518,10 +518,12 @@ $messages['tt-cyrl'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Prima klasy4na
  */
 $messages['uk'] = array(
 	'googleanalytics-desc' => 'Додає скрипт Google Analytics (ga.js) на сторінки MediaWiki для відстеження',
+	'right-noanalytics' => 'Звільнені від відстеження Google Analytics',
 );
 
 /** vèneto (vèneto)
