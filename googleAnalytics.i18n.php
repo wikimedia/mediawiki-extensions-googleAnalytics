@@ -291,6 +291,7 @@ $messages['ksh'] = array(
  */
 $messages['lb'] = array(
 	'googleanalytics-desc' => 'Setzt e Google Analytics Script (ga.js) a MediaWiki-Säite fir Recherchen zouzeloossen',
+	'right-noanalytics' => 'Net vum Tracking vu Google-Analytics betraff',
 );
 
 /** Lithuanian (lietuvių)
@@ -361,6 +362,7 @@ $messages['nn'] = array(
  */
 $messages['oc'] = array(
 	'googleanalytics-desc' => 'Apond un escript Google Analitic (ga.js) dins las paginas MediaWiki per las recèrcas.',
+	'right-noanalytics' => 'Pas concernit per la traça de Google Analytics',
 );
 
 /** Ossetic (Ирон)
