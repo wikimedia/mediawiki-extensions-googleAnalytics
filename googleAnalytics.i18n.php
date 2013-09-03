@@ -256,10 +256,12 @@ $messages['id'] = array(
 );
 
 /** Italian (italiano)
+ * @author Gianfranco
  * @author Pietrodn
  */
 $messages['it'] = array(
 	'googleanalytics-desc' => 'Inserisce lo script di Google Analytics (ga.js) nelle pagine MediaWiki per il monitoraggio',
+	'right-noanalytics' => 'Immune dal tracciamento di Google Analytics',
 );
 
 /** Japanese (日本語)
