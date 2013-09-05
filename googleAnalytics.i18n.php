@@ -391,17 +391,21 @@ $messages['pms'] = array(
 );
 
 /** Portuguese (português)
+ * @author Cainamarques
  * @author Malafaya
  */
 $messages['pt'] = array(
 	'googleanalytics-desc' => 'Insere o script Google Analytics (ga.js) nas páginas MediaWiki para rastreio',
+	'right-noanalytics' => 'Isento do rastreio do Google Analytics',
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'googleanalytics-desc' => 'Insere o script Google Analytics (ga.js) nas páginas MediaWiki para rastreio',
+	'right-noanalytics' => 'Isento do rastreio do Google Analytics',
 );
 
 /** Romansh (rumantsch)
