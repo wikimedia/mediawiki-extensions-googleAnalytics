@@ -286,6 +286,7 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'googleanalytics-desc' => 'Deit dat <i lang="en">Google Analytics</i> Projrämmsche (<code>ga.js</code>) in Sigge fum MediaWiki zom Verfollje.',
+	'right-noanalytics' => 'Usjenumme vum Be\'oobachte, wat <i lang="en" xml:lang="en">Google Analytics</i> määt.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
