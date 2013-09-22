@@ -246,6 +246,7 @@ $messages['hu'] = array(
  */
 $messages['ia'] = array(
 	'googleanalytics-desc' => 'Insere le script de Google Analytics (ga.js) in le paginas de MediaWiki pro facer traciamento',
+	'right-noanalytics' => 'Exempte del traciamento de Google Analytics',
 );
 
 /** Indonesian (Bahasa Indonesia)
