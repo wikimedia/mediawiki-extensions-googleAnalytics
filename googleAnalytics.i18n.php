@@ -551,10 +551,12 @@ $messages['vi'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Hzy980512
  * @author Wmr89502270
  */
 $messages['zh-hans'] = array(
 	'googleanalytics-desc' => '为跟踪用户而插入Google分析脚本（ga.js）到MedaiWiki页面',
+	'right-noanalytics' => '避免Google Analytics追踪',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
