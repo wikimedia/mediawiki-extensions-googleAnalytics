@@ -426,10 +426,12 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (русский)
+ * @author Okras
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'googleanalytics-desc' => 'Вставляет скрипт Google Analytics (ga.js) в страницы MediaWiki',
+	'right-noanalytics' => 'Не подлежащие отслеживанию через Google Analytics',
 );
 
 /** Slovak (slovenčina)
