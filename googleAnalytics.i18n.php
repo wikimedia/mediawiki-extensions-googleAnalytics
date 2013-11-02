@@ -145,11 +145,13 @@ $messages['eo'] = array(
 );
 
 /** Spanish (español)
+ * @author Benfutbol10
  * @author Fitoschido
  * @author Sanbec
  */
 $messages['es'] = array(
 	'googleanalytics-desc' => 'Inserta el script de Google Analytics (ga.js) en las páginas de MediaWiki para su rastreo',
+	'right-noanalytics' => 'Exento de seguimiento de Google Analytics',
 );
 
 /** Basque (euskara)
