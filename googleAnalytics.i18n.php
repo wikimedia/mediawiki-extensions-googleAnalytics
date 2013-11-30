@@ -128,6 +128,7 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'googleanalytics-desc' => 'Zasuwa skript Google Analytics (ga.js) do bokow MediaWiki za slědowanje',
+	'right-noanalytics' => 'Ze slědowanja pśez Google Analytics wuwzety',
 );
 
 /** Greek (Ελληνικά)
@@ -234,6 +235,7 @@ $messages['hr'] = array(
  */
 $messages['hsb'] = array(
 	'googleanalytics-desc' => 'Zasunje skript Google Analytics (ga.js) do stronow MediaWiki za wuslědźenje',
+	'right-noanalytics' => 'Ze slědowanja přez Google Analytics wuwzaty',
 );
 
 /** Hungarian (magyar)
