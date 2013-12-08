@@ -524,6 +524,7 @@ $messages['tl'] = array(
  */
 $messages['tr'] = array(
 	'googleanalytics-desc' => 'MedyaViki sayfalarını izlemek için Google Analytics scriptini (ga.js) ekler',
+	'right-noanalytics' => 'Google Analytics izlemesinden muafiyet',
 );
 
 /** Tatar (Cyrillic script) (татарча)
