@@ -163,10 +163,12 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'googleanalytics-desc' => 'درج اسکریپت گوگل آنالیز (ga.js) در صفحه‌های مدیاویکی برای ردیابی',
+	'right-noanalytics' => 'آزاد از ردیابی آنالیزهای گوگل',
 );
 
 /** Finnish (suomi)
