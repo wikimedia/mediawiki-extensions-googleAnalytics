@@ -570,8 +570,10 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
+ * @author Liuxinyu970226
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
 	'googleanalytics-desc' => '為追蹤用戶而插入 Google 分析腳本（ga.js）到 MedaiWiki 頁面',
+	'right-noanalytics' => '避免從Google Analytics跟蹤',
 );
