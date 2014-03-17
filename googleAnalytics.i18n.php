@@ -442,6 +442,14 @@ $messages['ru'] = array(
 	'right-noanalytics' => 'Не подлежащие отслеживанию через Google Analytics',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'googleanalytics-desc' => 'Inserts Google Analytics screept (ga.js) intil MediaWiki pages fer trackin',
+	'right-noanalytics' => 'Exemptit fae Google Analytics trackin',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
