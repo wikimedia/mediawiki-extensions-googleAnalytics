@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Robby"
+        ]
+    },
+    "googleanalytics-desc": "Setzt e Google Analytics Script (ga.js) a MediaWiki-Säite fir Recherchen zouzeloossen",
+    "right-noanalytics": "Net vum Tracking vu Google-Analytics betraff"
+}

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Hzy980512",
+            "Wmr89502270"
+        ]
+    },
+    "googleanalytics-desc": "为跟踪用户而插入Google分析脚本（ga.js）到MedaiWiki页面",
+    "right-noanalytics": "避免Google Analytics追踪"
+}

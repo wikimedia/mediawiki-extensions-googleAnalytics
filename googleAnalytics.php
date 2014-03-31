@@ -6,12 +6,13 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'Google Analytics Integration',
-	'version'        => '2.0.2',
+	'version'        => '2.1.0',
 	'author'         => 'Tim Laqua',
 	'descriptionmsg' => 'googleanalytics-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
 );
 
+$wgMessagesDirs['googleAnalytics'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['googleAnalytics'] = dirname(__FILE__) . '/googleAnalytics.i18n.php';
 
 $wgHooks['SkinAfterBottomScripts'][]  = 'efGoogleAnalyticsHookText';

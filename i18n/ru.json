@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Okras",
+            "Александр Сигачёв"
+        ]
+    },
+    "googleanalytics-desc": "Вставляет скрипт Google Analytics (ga.js) в страницы MediaWiki",
+    "right-noanalytics": "Не подлежащие отслеживанию через Google Analytics"
+}

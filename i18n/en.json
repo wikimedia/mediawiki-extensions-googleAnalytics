@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Tim Laqua"
+        ]
+    },
+    "googleanalytics-desc": "Inserts Google Analytics script (ga.js) in to MediaWiki pages for tracking",
+    "right-noanalytics": "Exempted from Google Analytics tracking"
+}
