@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Liangent",
-            "Liuxinyu970226",
-            "Mark85296341"
-        ]
-    },
-    "googleanalytics-desc": "為追蹤用戶而插入 Google 分析腳本（ga.js）到 MedaiWiki 頁面",
-    "right-noanalytics": "避免從Google Analytics跟蹤"
+	"@metadata": {
+		"authors": [
+			"Liangent",
+			"Liuxinyu970226",
+			"Mark85296341"
+		]
+	},
+	"googleanalytics-desc": "為追蹤用戶而插入 Google 分析腳本（ga.js）到 MedaiWiki 頁面",
+	"right-noanalytics": "避免從Google Analytics跟蹤"
 }

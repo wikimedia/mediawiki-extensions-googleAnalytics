@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Metalhead64",
-            "Raimond Spekking"
-        ]
-    },
-    "googleanalytics-desc": "Ermöglicht das Einbinden des Google-Analytics-Skript (ga.js) auf Seiten",
-    "right-noanalytics": "Von der Google-Analytics-Verfolgung ausgenommen"
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Raimond Spekking"
+		]
+	},
+	"googleanalytics-desc": "Ermöglicht das Einbinden des Google-Analytics-Skript (ga.js) auf Seiten",
+	"right-noanalytics": "Von der Google-Analytics-Verfolgung ausgenommen"
 }

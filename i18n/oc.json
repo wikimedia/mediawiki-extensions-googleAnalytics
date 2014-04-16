@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "googleanalytics-desc": "Apond un escript Google Analitic (ga.js) dins las paginas MediaWiki per las recèrcas.",
-    "right-noanalytics": "Pas concernit per la traça de Google Analytics"
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"googleanalytics-desc": "Apond un escript Google Analitic (ga.js) dins las paginas MediaWiki per las recèrcas.",
+	"right-noanalytics": "Pas concernit per la traça de Google Analytics"
 }

@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "googleanalytics-desc": "Insire a escritura do Google Analytics (ga.js) nas páxinas MediaWiki para facer un seguimento",
-    "right-noanalytics": "Exento do seguimento por parte do Google Analytics"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"googleanalytics-desc": "Insire a escritura do Google Analytics (ga.js) nas páxinas MediaWiki para facer un seguimento",
+	"right-noanalytics": "Exento do seguimento por parte do Google Analytics"
 }

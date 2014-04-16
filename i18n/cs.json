@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mormegil"
-        ]
-    },
-    "googleanalytics-desc": "Vkládá do stránek MediaWiki skript Google Analytics (ga.js) pro sledování"
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"googleanalytics-desc": "Vkládá do stránek MediaWiki skript Google Analytics (ga.js) pro sledování"
 }

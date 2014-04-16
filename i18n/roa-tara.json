@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Joetaras"
-        ]
-    },
-    "googleanalytics-desc": "Mitte 'nu script de Google Analitycs (ga.js) jndr'à le pàggene de MediaUicchi pe farle traccià",
-    "right-noanalytics": "Scartate da 'u tracciamende de Google Analytics"
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"googleanalytics-desc": "Mitte 'nu script de Google Analitycs (ga.js) jndr'à le pàggene de MediaUicchi pe farle traccià",
+	"right-noanalytics": "Scartate da 'u tracciamende de Google Analytics"
 }
