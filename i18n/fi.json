@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Nike",
-			"Str4nd"
+			"Str4nd",
+			"Syreeni"
 		]
 	},
-	"googleanalytics-desc": "Lisää Google Analytics -seurantakoodin (ga.js) MediaWikin sivuille käyttäjien seurantaa varten."
+	"googleanalytics-desc": "Lisää Google Analytics -seurantakoodin (ga.js) MediaWikin sivuille seurantaa varten"
 }
