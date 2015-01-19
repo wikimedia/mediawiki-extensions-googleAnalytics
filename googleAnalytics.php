@@ -42,3 +42,4 @@ $wgGoogleAnalyticsIgnoreSpecials = array( 'Userlogin', 'Userlogout', 'Preference
 
 $wgAutoloadClasses['GoogleAnalyticsHooks'] = __DIR__ . '/googleAnalytics.hooks.php';
 $wgHooks['SkinAfterBottomScripts'][] = 'GoogleAnalyticsHooks::onSkinAfterBottomScripts';
+$wgHooks['UnitTestsList'][] = 'GoogleAnalyticsHooks::onUnitTestsList';
