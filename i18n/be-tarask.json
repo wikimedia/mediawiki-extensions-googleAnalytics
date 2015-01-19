@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Wizardist"
+			"Wizardist",
+			"Red Winged Duck"
 		]
 	},
-	"googleanalytics-desc": "Уставіць скрыпт Google Analytics (ga.js) у старонку MediaWiki для сачэньня",
+	"googleanalytics-desc": "Устаўляе скрыпты Google Universal Analytics (і/або іншай вэб-аналітыкі) у старонкі MediaWiki для сачэньня",
 	"right-noanalytics": "выключэньне з назіраньня ў Google Analytics"
 }
