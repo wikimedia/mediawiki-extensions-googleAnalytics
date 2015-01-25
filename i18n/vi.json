@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vinhtantran"
+			"Vinhtantran",
+			"Dinhxuanduyet"
 		]
 	},
-	"googleanalytics-desc": "Chèn mã Google Analytics (ga.js) vào các trang MediaWiki để dò tìm"
+	"googleanalytics-desc": "Chèn mã Google Analytics (ga.js) vào các trang MediaWiki để dò tìm",
+	"right-noanalytics": "Miễn theo dõi phân tích web"
 }
