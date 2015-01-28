@@ -1,10 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko",
-            "Grondin"
-        ]
-    },
-    "googleanalytics-desc": "Ajoute un script Google Analytique (ga.js) dans les pages MediaWiki pour les recherches.",
-    "right-noanalytics": "Non-concerné par la trace de Google Analytics"
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Grondin",
+			"Benjozork"
+		]
+	},
+	"googleanalytics-desc": "Ajoute un script Google Analytics (et/ou un autre service d'analyse web) dans les pages MediaWiki pour le traçage",
+	"right-noanalytics": "Non-concerné par la trace des analyses web"
 }
