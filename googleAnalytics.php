@@ -6,7 +6,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Google Analytics Integration',
-	'version' => '3.0.0',
+	'version' => '3.0.1',
 	'author' => array( 'Tim Laqua', '[https://www.mediawiki.org/wiki/User:DavisNT Davis Mosenkovs]' ),
 	'descriptionmsg' => 'googleanalytics-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
@@ -19,6 +19,10 @@ $wgExtensionMessagesFiles['googleAnalytics'] = __DIR__ . '/googleAnalytics.i18n.
 
 // Google Universal Analytics account id (e.g. "UA-12345678-1")
 $wgGoogleAnalyticsAccount = '';
+
+// Don't store last octet (or last 80 bits of IPv6 address) in Google Universal Analytics
+// For more info see https://support.google.com/analytics/answer/2763052?hl=en
+$wgGoogleAnalyticsAnonymizeIP = true;
 
 // HTML code for other web analytics (can be used along with Google Universal Analytics)
 $wgGoogleAnalyticsOtherCode = '';
