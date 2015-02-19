@@ -4,9 +4,11 @@
 			"Benfutbol10",
 			"Fitoschido",
 			"Sanbec",
-			"MadriCR"
+			"MadriCR",
+			"JasterTDC",
+			"Macofe"
 		]
 	},
-	"googleanalytics-desc": "Inserta el script de Google Analytics (ga.js) en las páginas de MediaWiki para su rastreo",
+	"googleanalytics-desc": "Inserta el script de Google Analytics (u otros de análisis web) en las páginas de MediaWiki para su rastreo",
 	"right-noanalytics": "Exento de seguimiento de análisis web"
 }

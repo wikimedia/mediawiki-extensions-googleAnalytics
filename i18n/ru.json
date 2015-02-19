@@ -5,6 +5,6 @@
 			"Александр Сигачёв"
 		]
 	},
-	"googleanalytics-desc": "Вставляет скрипт Google Analytics (ga.js) в страницы MediaWiki",
-	"right-noanalytics": "Не подлежащие отслеживанию через Google Analytics"
+	"googleanalytics-desc": "Вставляет скрипты Google Analytics (и/или другой веб-аналитики) в страницы MediaWiki для сбора статистики",
+	"right-noanalytics": "Не подлежащие отслеживанию через скрипты веб-аналитики"
 }

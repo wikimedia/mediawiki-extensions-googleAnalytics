@@ -67,6 +67,17 @@ class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 		$this->assertContains( 'analytics.example.com/foo.js', $text );
 	}
 
+	public function testAnonymizeIp() {
+		$this->setMwGlobals( 'wgGoogleAnalyticsAccount', 'foobarbaz' );
+		$text = '';
+		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
+		$this->assertContains( 'anonymizeIp', $text );
+		$this->setMwGlobals( 'wgGoogleAnalyticsAnonymizeIP', false );
+		$text = '';
+		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
+		$this->assertNotContains( 'anonymizeIp', $text );
+	}
+
 	/**
 	 * @dataProvider provideExcludedPages
 	 */

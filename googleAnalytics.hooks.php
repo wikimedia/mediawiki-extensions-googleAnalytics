@@ -7,8 +7,8 @@ class GoogleAnalyticsHooks {
 	 * @return bool
 	 */
 	public static function onSkinAfterBottomScripts( Skin $skin, &$text = '' ) {
-		global $wgGoogleAnalyticsAccount, $wgGoogleAnalyticsOtherCode, $wgGoogleAnalyticsIgnoreNsIDs,
-			   $wgGoogleAnalyticsIgnorePages, $wgGoogleAnalyticsIgnoreSpecials;
+		global $wgGoogleAnalyticsAccount, $wgGoogleAnalyticsAnonymizeIP, $wgGoogleAnalyticsOtherCode,
+			   $wgGoogleAnalyticsIgnoreNsIDs, $wgGoogleAnalyticsIgnorePages, $wgGoogleAnalyticsIgnoreSpecials;
 
 		if ( $skin->getUser()->isAllowed( 'noanalytics' ) ) {
 			$text .= "<!-- Web analytics code inclusion is disabled for this user. -->\r\n";
@@ -38,6 +38,9 @@ class GoogleAnalyticsHooks {
 EOD
 . $wgGoogleAnalyticsAccount . <<<EOD
 ', 'auto');
+
+EOD
+. ( $wgGoogleAnalyticsAnonymizeIP ? "  ga('set', 'anonymizeIp', true);\r\n" : "" ) . <<<EOD
   ga('send', 'pageview');
 
 </script>
