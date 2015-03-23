@@ -3,9 +3,10 @@
 		"authors": [
 			"Purodha",
 			"Shirayuki",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Umherirrender"
 		]
 	},
-	"googleanalytics-desc": "{{desc|name=google Analytics|url=http://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration}}",
+	"googleanalytics-desc": "{{desc|name=google Analytics|url=https://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration}}",
 	"right-noanalytics": "{{doc-right|noanalytics}}"
 }
