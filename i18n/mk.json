@@ -4,6 +4,6 @@
 			"Bjankuloski06"
 		]
 	},
-	"googleanalytics-desc": "Вметнува скрипта од Google Analytics (ga.js) во МедијаВики страници за следење",
-	"right-noanalytics": "Изземеност од следење на Google Аналитика"
+	"googleanalytics-desc": "Вметнува скрипти од  Google Universal Analytics (и/или други семрежни аналитики) во страници за следење на МедијаВики",
+	"right-noanalytics": "Изземеност од следење со семрежна аналитика"
 }
