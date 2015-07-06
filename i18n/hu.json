@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dani"
+			"Dani",
+			"Tacsipacsi"
 		]
 	},
-	"googleanalytics-desc": "Google Analytics szkript (ga.js) hozzáfűzése a MediaWiki lapokhoz nyomkövetéshez"
+	"googleanalytics-desc": "Google Analytics szkript (és/vagy más webes elemzőszkript) hozzáfűzése a MediaWiki lapokhoz nyomkövetéshez",
+	"right-noanalytics": "mentesül a webes elemzőszkriptek használata alól"
 }
