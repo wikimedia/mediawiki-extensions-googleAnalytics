@@ -7,9 +7,13 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Google Analytics Integration',
 	'version' => '3.0.1',
-	'author' => array( 'Tim Laqua', '[https://www.mediawiki.org/wiki/User:DavisNT Davis Mosenkovs]' ),
+	'author' => array(
+		'Tim Laqua',
+		'[https://www.mediawiki.org/wiki/User:DavisNT Davis Mosenkovs]'
+	),
 	'descriptionmsg' => 'googleanalytics-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
+	'license-name' => 'GPL-2.0+'
 );
 
 $wgMessagesDirs['googleAnalytics'] = __DIR__ . '/i18n';
