@@ -38,7 +38,7 @@ $wgGoogleAnalyticsIgnoreNsIDs = array();
 $wgGoogleAnalyticsIgnorePages = array();
 
 // Array with special pages where web analytics code should NOT be included.
-$wgGoogleAnalyticsIgnoreSpecials = array( 'Userlogin', 'Userlogout', 'Preferences', 'ChangePassword' );
+$wgGoogleAnalyticsIgnoreSpecials = array( 'Userlogin', 'CreateAccount', 'Userlogout', 'Preferences', 'ChangePassword' );
 
 /* WARNING! The following options were removed in version 3.0:
  *   $wgGoogleAnalyticsAddASAC
