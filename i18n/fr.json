@@ -4,9 +4,10 @@
 			"Gomoko",
 			"Grondin",
 			"Benjozork",
-			"Urhixidur"
+			"Urhixidur",
+			"Wladek92"
 		]
 	},
-	"googleanalytics-desc": "Ajoute un script Google Analytics (ou d’un autre service d’analyse Web) dans les pages MediaWiki pour le traçage",
+	"googleanalytics-desc": "Ajoute des scripts Google Universal Analytics (ou d’autres service d’analyse Web) dans les pages MediaWiki pour le traçage",
 	"right-noanalytics": "Non-concerné par la trace des analyses web"
 }
