@@ -17,7 +17,6 @@ $wgExtensionCredits['other'][] = array(
 );
 
 $wgMessagesDirs['googleAnalytics'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['googleAnalytics'] = __DIR__ . '/googleAnalytics.i18n.php';
 
 /*** Default configuration ***/
 
