@@ -13,7 +13,7 @@ $wgExtensionCredits['other'][] = array(
 	),
 	'descriptionmsg' => 'googleanalytics-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
-	'license-name' => 'GPL-2.0+'
+	'license-name' => 'GPL-2.0-or-later'
 );
 
 $wgMessagesDirs['googleAnalytics'] = __DIR__ . '/i18n';
