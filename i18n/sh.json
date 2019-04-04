@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"googleanalytics-desc": "Umeće skripte iz  Google Universal Analytics (i/ili druge svemrežne analize) na stranice za praćenje MediaWiki",
+	"right-noanalytics": "Izuzeto iz praćenja svemrežne analitike"
+}
