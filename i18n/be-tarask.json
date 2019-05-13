@@ -7,5 +7,6 @@
 		]
 	},
 	"googleanalytics-desc": "Устаўляе скрыпты Google Universal Analytics (і/або іншай вэб-аналітыкі) у старонкі MediaWiki для сачэньня",
+	"action-noanalytics": "выключэньне з назіраньня ў вэб-аналітыцы",
 	"right-noanalytics": "выключэньне з назіраньня ў вэб-аналітыцы"
 }
