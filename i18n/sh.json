@@ -5,5 +5,6 @@
 		]
 	},
 	"googleanalytics-desc": "Umeće skripte iz  Google Universal Analytics (i/ili druge svemrežne analize) na stranice za praćenje MediaWiki",
+	"action-noanalytics": "izuzeto iz praćenja svemrežne analitike",
 	"right-noanalytics": "Izuzeto iz praćenja svemrežne analitike"
 }
