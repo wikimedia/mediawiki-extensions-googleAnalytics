@@ -15,9 +15,10 @@ class GoogleAnalyticsHooks {
 			return true;
 		}
 
-		if ( count( array_filter( $wgGoogleAnalyticsIgnoreSpecials, function ( $v ) use ( $skin ) {
-				return $skin->getTitle()->isSpecial( $v );
-			} ) ) > 0
+		$ignoreSpecials = array_filter( $wgGoogleAnalyticsIgnoreSpecials, function ( $v ) use ( $skin ) {
+			return $skin->getTitle()->isSpecial( $v );
+		} );
+		if ( count( $ignoreSpecials ) > 0
 			|| in_array( $skin->getTitle()->getNamespace(), $wgGoogleAnalyticsIgnoreNsIDs, true )
 			|| in_array( $skin->getTitle()->getPrefixedText(), $wgGoogleAnalyticsIgnorePages, true ) ) {
 			$text .= "<!-- Web analytics code inclusion is disabled for this page. -->\r\n";
