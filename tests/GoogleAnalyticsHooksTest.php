@@ -4,7 +4,7 @@
  * @covers GoogleAnalyticsHooks
  */
 class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
-	public function setUp() {
+	public function setUp() : void {
 		parent::setUp();
 		$this->setMwGlobals( 'wgGoogleAnalyticsAccount', '' );
 	}
