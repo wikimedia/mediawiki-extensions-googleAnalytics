@@ -3,18 +3,18 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'This file is a MediaWiki extension, it is not a valid entry point' );
 }
 
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'Google Analytics Integration',
 	'version' => '3.0.1',
-	'author' => array(
+	'author' => [
 		'Tim Laqua',
 		'[https://www.mediawiki.org/wiki/User:DavisNT Davis Mosenkovs]'
-	),
+	],
 	'descriptionmsg' => 'googleanalytics-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Google_Analytics_Integration',
 	'license-name' => 'GPL-2.0-or-later'
-);
+];
 
 $wgMessagesDirs['googleAnalytics'] = __DIR__ . '/i18n';
 
@@ -31,13 +31,13 @@ $wgGoogleAnalyticsAnonymizeIP = true;
 $wgGoogleAnalyticsOtherCode = '';
 
 // Array with NUMERIC namespace IDs where web analytics code should NOT be included.
-$wgGoogleAnalyticsIgnoreNsIDs = array();
+$wgGoogleAnalyticsIgnoreNsIDs = [];
 
 // Array with page names (see magic word {{FULLPAGENAME}}) where web analytics code should NOT be included.
-$wgGoogleAnalyticsIgnorePages = array();
+$wgGoogleAnalyticsIgnorePages = [];
 
 // Array with special pages where web analytics code should NOT be included.
-$wgGoogleAnalyticsIgnoreSpecials = array( 'Userlogin', 'CreateAccount', 'Userlogout', 'Preferences', 'ChangePassword' );
+$wgGoogleAnalyticsIgnoreSpecials = [ 'Userlogin', 'CreateAccount', 'Userlogout', 'Preferences', 'ChangePassword' ];
 
 /* WARNING! The following options were removed in version 3.0:
  *   $wgGoogleAnalyticsAddASAC
