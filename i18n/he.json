@@ -4,9 +4,10 @@
 			"Rotemliss",
 			"YaronSh",
 			"Yona b",
-			"Guycn2"
+			"Guycn2",
+			"Ghsuvr"
 		]
 	},
-	"googleanalytics-desc": "הוספת סקריפט של Google Analytics (בשם ga.js) לעמודי מדיה־ויקי לצורכי מעקב.",
+	"googleanalytics-desc": "מכניס סקריפט של Google Analytics (ו/או מנתחי אינטרנט אחרים) לעמודי מדיה־ויקי לצורכי מעקב.",
 	"right-noanalytics": "חסינות ממעקב של web analytics"
 }
