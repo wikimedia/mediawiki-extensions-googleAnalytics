@@ -18,7 +18,7 @@ $wgExtensionCredits['other'][] = [
 
 $wgMessagesDirs['googleAnalytics'] = __DIR__ . '/i18n';
 
-/*** Default configuration ***/
+/** Default configuration */
 
 // Google Universal Analytics account id (e.g. "UA-12345678-1")
 $wgGoogleAnalyticsAccount = '';
