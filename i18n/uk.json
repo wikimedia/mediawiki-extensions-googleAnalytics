@@ -4,10 +4,11 @@
 			"Andriykopanytsia",
 			"Prima klasy4na",
 			"Ата",
-			"Vlad5250"
+			"Vlad5250",
+			"Piramidion"
 		]
 	},
 	"googleanalytics-desc": "Додає скрипти Google Universal Analytics (та/або іншу веб-аналітику) на сторінки MediaWiki для відстеження",
 	"action-noanalytics": "звільнення від відстеження веб-аналітикою",
-	"right-noanalytics": "Звільнені від відстеження веб-аналітикою"
+	"right-noanalytics": "Звільнення від відстеження веб-аналітикою"
 }
