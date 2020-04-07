@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Citizen01",
+			"Kly",
+			"LNDDYL",
 			"Liangent",
 			"Liuxinyu970226",
-			"Mark85296341",
-			"Citizen01",
-			"LNDDYL",
-			"Kly"
+			"Mark85296341"
 		]
 	},
 	"googleanalytics-desc": "為追蹤使用者而插入 Google 通用分析（或其他網站分析工具）指令碼至 MedaiWiki 頁面",

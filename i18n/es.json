@@ -3,10 +3,10 @@
 		"authors": [
 			"Benfutbol10",
 			"Fitoschido",
-			"Sanbec",
-			"MadriCR",
 			"JasterTDC",
-			"Macofe"
+			"Macofe",
+			"MadriCR",
+			"Sanbec"
 		]
 	},
 	"googleanalytics-desc": "Inserta el script de Google Analytics (u otros de análisis web) en las páginas de MediaWiki para su rastreo",

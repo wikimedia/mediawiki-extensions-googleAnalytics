@@ -3,8 +3,8 @@
 		"authors": [
 			"Lejonel",
 			"M.M.S.",
-			"WikiPhoenix",
-			"Mjälten"
+			"Mjälten",
+			"WikiPhoenix"
 		]
 	},
 	"googleanalytics-desc": "Lägger in ett skript från Google Analytics (ga.js) på MediaWiki-sidor för att spåra användare",
