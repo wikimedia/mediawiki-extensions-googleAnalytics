@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Candalua"
+			"Candalua",
+			"Fierodelveneto"
 		]
 	},
-	"googleanalytics-desc": "Inserìssi script de Google Analytics (ga.js) drento le pagine MediaWiki par far tracking"
+	"googleanalytics-desc": "Inserise el script de Google Analytics (e/o altri instrumenti de anałixe web) in łe pajine MediaWiki par el monitorajo",
+	"action-noanalytics": "al de fora del monitorajo de l'anałixe Web",
+	"right-noanalytics": "Al de fora dal pecajo de l'anałexe Web"
 }
