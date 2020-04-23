@@ -3,7 +3,7 @@
 class GoogleAnalyticsHooks {
 	/**
 	 * @param Skin $skin
-	 * @param string $text
+	 * @param string &$text
 	 * @return bool
 	 */
 	public static function onSkinAfterBottomScripts( Skin $skin, &$text = '' ) {
