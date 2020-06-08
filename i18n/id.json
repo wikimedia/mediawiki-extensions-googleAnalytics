@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Diki Ananta",
-			"Rex"
+			"Rex",
+			"Sumbukompor"
 		]
 	},
 	"googleanalytics-desc": "Menambahkan skrip Google Universal Analytics (dan/atau analitik web lainnya) ke halaman-halaman MediaWiki untuk tujuan penjejakan"
