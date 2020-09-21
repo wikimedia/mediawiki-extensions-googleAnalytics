@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Octahedron80"
+			"Octahedron80",
+			"Patsagorn Y."
 		]
 	},
-	"googleanalytics-desc": "แทรกสคริปต์ Google Analytics (ga.js) ในหน้าต่าง ๆ ของมีเดียวิกิสำหรับการติดตาม"
+	"googleanalytics-desc": "แทรกโค้ดของ Google Universal Analytics (และ/หรือการทำวิเคราะห์เว็บโดยใช้เครื่องมืออื่น) ลงในทุกหน้าของมีเดียวิกิสำหรับติดตาม",
+	"action-noanalytics": "ยกเว้นจากการทำการวิเคราะห์เว็บ",
+	"right-noanalytics": "ยกเว้นการติดตามจากเครื่องมือวิเคราะห์การเยี่ยมชม"
 }
