@@ -44,7 +44,7 @@ class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 	public function testUserPermissions( $allowed, $expected ) {
 		$text = '';
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( $allowed ), $text );
-		$this->assertContains( $expected, $text );
+		$this->assertStringContainsString( $expected, $text );
 	}
 
 	public static function provideUserPermissions() {
@@ -58,25 +58,25 @@ class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 		$this->setMwGlobals( 'wgGoogleAnalyticsAccount', 'foobarbaz' );
 		$text = '';
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
-		$this->assertContains( 'www.google-analytics.com/analytics.js', $text );
-		$this->assertContains( 'foobarbaz', $text );
+		$this->assertStringContainsString( 'www.google-analytics.com/analytics.js', $text );
+		$this->assertStringContainsString( 'foobarbaz', $text );
 		$this->setMwGlobals( 'wgGoogleAnalyticsAccount', '' );
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
-		$this->assertContains( 'No web analytics configured', $text );
+		$this->assertStringContainsString( 'No web analytics configured', $text );
 		$this->setMwGlobals( 'wgGoogleAnalyticsOtherCode', 'analytics.example.com/foo.js' );
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
-		$this->assertContains( 'analytics.example.com/foo.js', $text );
+		$this->assertStringContainsString( 'analytics.example.com/foo.js', $text );
 	}
 
 	public function testAnonymizeIp() {
 		$this->setMwGlobals( 'wgGoogleAnalyticsAccount', 'foobarbaz' );
 		$text = '';
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
-		$this->assertContains( 'anonymizeIp', $text );
+		$this->assertStringContainsString( 'anonymizeIp', $text );
 		$this->setMwGlobals( 'wgGoogleAnalyticsAnonymizeIP', false );
 		$text = '';
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
-		$this->assertNotContains( 'anonymizeIp', $text );
+		$this->assertStringNotContainsString( 'anonymizeIp', $text );
 	}
 
 	/**
@@ -87,9 +87,9 @@ class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 		$text = '';
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false, $title ), $text );
 		if ( $include ) {
-			$this->assertContains( 'No web analytics configured', $text );
+			$this->assertStringContainsString( 'No web analytics configured', $text );
 		} else {
-			$this->assertContains( 'Web analytics code inclusion is disabled for this page', $text );
+			$this->assertStringContainsString( 'Web analytics code inclusion is disabled for this page', $text );
 		}
 	}
 
