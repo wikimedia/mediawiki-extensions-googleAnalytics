@@ -10,7 +10,8 @@ class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 	}
 
 	/**
-	 * @param $allowed
+	 * @param bool $allowed
+	 * @param string $title
 	 * @return Skin
 	 */
 	private function mockSkin( $allowed, $title = 'Main Page' ) {

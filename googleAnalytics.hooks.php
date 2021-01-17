@@ -62,6 +62,10 @@ EOD;
 		return true;
 	}
 
+	/**
+	 * @param string[] &$files
+	 * @return bool
+	 */
 	public static function onUnitTestsList( array &$files ) {
 		// @codeCoverageIgnoreStart
 		$directoryIterator = new RecursiveDirectoryIterator( __DIR__ . '/tests/' );
