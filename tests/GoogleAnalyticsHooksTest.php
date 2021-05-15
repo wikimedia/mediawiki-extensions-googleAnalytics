@@ -17,11 +17,11 @@ class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 	private function mockSkin( $allowed, $title = 'Main Page' ) {
 		$skin = $this->getMockBuilder( 'SkinFallback' )
 			->disableOriginalConstructor()
-			->setMethods( [ 'getUser', 'getTitle' ] )
+			->onlyMethods( [ 'getUser', 'getTitle' ] )
 			->getMock();
 		$user = $this->getMockBuilder( 'User' )
 			->disableOriginalConstructor()
-			->setMethods( [ 'isAllowed' ] )
+			->onlyMethods( [ 'isAllowed' ] )
 			->getMock();
 
 		$user->expects( $this->any() )
