@@ -3,11 +3,12 @@
 		"authors": [
 			"Esketti",
 			"Mainframe98",
+			"McDutchie",
 			"SPQRobin",
 			"Siebrand"
 		]
 	},
-	"googleanalytics-desc": "Voegt Google Universal Analytics (en/of andere web analytics) scripts in de MediaWiki-pagina ' s voor het bijhouden van",
+	"googleanalytics-desc": "Voegt scripts voor Google Universal Analytics (en/of andere webanalysediensten) in op MediaWiki-pagina's voor het volgen van gebruikershandelingen",
 	"action-noanalytics": "vrijgesteld te zijn van web analytics-tracking",
 	"right-noanalytics": "Vrijgesteld zijn van web analytics-tracking"
 }
