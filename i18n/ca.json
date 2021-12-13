@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Aleator",
-			"Solde"
+			"Solde",
+			"Mguix"
 		]
 	},
-	"googleanalytics-desc": "Inserta l'script de Google Analytics (ga.js) a les pàgines de MediaWiki per al seu seguiment"
+	"googleanalytics-desc": "Insereix scripts de Google Universal Analytics (i/o altres anàlisis web) a les pàgines MediaWiki per al seguiment"
 }

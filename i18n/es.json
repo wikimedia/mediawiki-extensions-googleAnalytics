@@ -6,9 +6,11 @@
 			"JasterTDC",
 			"Macofe",
 			"MadriCR",
-			"Sanbec"
+			"Sanbec",
+			"Destinid10 2"
 		]
 	},
 	"googleanalytics-desc": "Inserta el script de Google Analytics (u otros de análisis web) en las páginas de MediaWiki para su rastreo",
+	"action-noanalytics": "exentado del seguimiento de análisis web",
 	"right-noanalytics": "Exento de seguimiento de análisis web"
 }

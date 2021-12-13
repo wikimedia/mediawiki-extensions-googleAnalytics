@@ -3,8 +3,11 @@
 		"authors": [
 			"Diki Ananta",
 			"Rex",
-			"Sumbukompor"
+			"Sumbukompor",
+			"Daud I.F. Argana"
 		]
 	},
-	"googleanalytics-desc": "Menambahkan skrip Google Universal Analytics (dan/atau analitik web lainnya) ke halaman-halaman MediaWiki untuk tujuan penjejakan"
+	"googleanalytics-desc": "Menambahkan skrip Google Universal Analytics (dan/atau analitik web lainnya) ke halaman-halaman MediaWiki untuk tujuan penjejakan",
+	"action-noanalytics": "dikecualikan dari pelacakan analitis web",
+	"right-noanalytics": "Dikecualikan dari pelacakan analitis web"
 }

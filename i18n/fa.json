@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Jeeputer"
 		]
 	},
-	"googleanalytics-desc": "درج اسکریپت گوگل آنالیز (ga.js) در صفحه‌های مدیاویکی برای ردیابی",
-	"right-noanalytics": "آزاد از ردیابی آنالیزهای گوگل"
+	"googleanalytics-desc": "درج اسکریپت گوگل یونیورسال آنالیز (و/یا دیگر آنالیزهای وب) در صفحه‌های مدیاویکی برای ردیابی",
+	"right-noanalytics": "معاف از ردیابی آنالیزهای گوگل"
 }

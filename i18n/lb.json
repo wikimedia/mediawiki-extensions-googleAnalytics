@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
-	"googleanalytics-desc": "Setzt e Google Universal Analytics (an/oder aner Web-Analytics) Scripten a MediaWiki-Säite fir Recherchen zouzeloossen",
+	"googleanalytics-desc": "Setzt e Skripten vu Google Universal Analytics (an/oder aner Web-Analytics) a MediaWiki-Säite fir Recherchen zouzeloossen",
 	"right-noanalytics": "Net vum Tracking vu Web-Analytics betraff"
 }
