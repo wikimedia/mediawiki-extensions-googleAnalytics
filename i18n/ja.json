@@ -8,6 +8,6 @@
 		]
 	},
 	"googleanalytics-desc": "利用者追跡のために Google Universal Analytics (または他のウェブ解析) を MediaWiki のページに挿入する",
-	"action-noanalytics": "Matomoでは追跡できません。",
-	"right-noanalytics": "ウェブ解析による追跡から免除"
+	"action-noanalytics": "ウェブ解析による追跡の回避",
+	"right-noanalytics": "ウェブ解析による追跡を回避"
 }
