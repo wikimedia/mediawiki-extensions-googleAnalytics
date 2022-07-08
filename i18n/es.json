@@ -7,10 +7,11 @@
 			"JasterTDC",
 			"Macofe",
 			"MadriCR",
+			"MarcoAurelio",
 			"Sanbec"
 		]
 	},
-	"googleanalytics-desc": "Inserta el script de Google Analytics (u otros de análisis web) en las páginas de MediaWiki para su rastreo",
-	"action-noanalytics": "exentado del seguimiento de análisis web",
+	"googleanalytics-desc": "Inserta el script de Google Universal Analytics (u otros de análisis web) en las páginas de MediaWiki para su rastreo",
+	"action-noanalytics": "exento del seguimiento de análisis web",
 	"right-noanalytics": "Exento de seguimiento de análisis web"
 }
