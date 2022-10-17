@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Ghsuvr",
 			"Guycn2",
 			"Rotemliss",
@@ -9,5 +10,6 @@
 		]
 	},
 	"googleanalytics-desc": "מכניס סקריפט של Google Analytics (ו/או מנתחי אינטרנט אחרים) לעמודי מדיה־ויקי לצורכי מעקב.",
+	"action-noanalytics": "לחסינות ממעקב web analytics",
 	"right-noanalytics": "חסינות ממעקב של web analytics"
 }
