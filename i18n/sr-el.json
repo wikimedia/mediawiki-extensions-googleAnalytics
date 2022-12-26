@@ -4,5 +4,5 @@
 			"Michaello"
 		]
 	},
-	"googleanalytics-desc": "Ubacuje Guglovu Analitičku skriptu (ga-js) u strane vašeg MedijaVikija, zarad praćenja"
+	"googleanalytics-desc": "Ubacuje Guglovu univerzalnu analitičku (i/ili drugu veb analitičku) skriptu u Medijaviki stranice zarad praćenja"
 }
