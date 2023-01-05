@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"googleanalytics-desc": "Vstavi skript Google Universal Analytics (in/ali druge spletne analitike) na strani MediaWiki za sledenje",
+	"action-noanalytics": "izvzetje iz sledenja spletne analitike",
 	"right-noanalytics": "Izvzetost iz sledenja spletne analitike"
 }
