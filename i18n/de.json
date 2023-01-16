@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"CyberOne25",
 			"Metalhead64",
 			"Raimond Spekking"
 		]
 	},
 	"googleanalytics-desc": "Ermöglicht das Einbinden des Google-Universal-Analytics-Skripts (und/oder anderer Web-Analysewerkzeuge) in MediaWiki-Seiten zur Verfolgung",
-	"action-noanalytics": "von der Web-Analytics-Verfolgung ausgenommen zu sein",
+	"action-noanalytics": "Von Web-Analytics-Verfolgung ausgenommen",
 	"right-noanalytics": "Von der Web-Analytics-Verfolgung ausgenommen"
 }
