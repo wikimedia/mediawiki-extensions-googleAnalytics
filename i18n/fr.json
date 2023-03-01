@@ -10,6 +10,6 @@
 		]
 	},
 	"googleanalytics-desc": "Ajoute des scripts Google Universal Analytics (ou d’autres service d’analyse Web) dans les pages MediaWiki pour le traçage",
-	"action-noanalytics": "exempté du suivi analytique web",
-	"right-noanalytics": "Non-concerné par la trace des analyses web"
+	"action-noanalytics": "exempté du suivi analytique du web",
+	"right-noanalytics": "Exempté du suivi analytique du web"
 }
