@@ -7,6 +7,6 @@
 		]
 	},
 	"googleanalytics-desc": "Setter inn Google Analytics-skript (og/eller andre analysetjenester) på MediaWiki-sider for sporing",
-	"action-noanalytics": "unntas fra analysesporing",
+	"action-noanalytics": "unntatt fra analysesporing",
 	"right-noanalytics": "Unntatt fra analysesporing"
 }
