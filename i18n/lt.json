@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"googleanalytics-desc": "Stebėjimui įterpia „Google Universal Analytics“ (ir (ar) kitus žiniatinklio analizės) kodus į MediaWiki puslapius",
+	"action-noanalytics": "turi išimtį iš žiniatinklio analitikos stebėsenos",
+	"right-noanalytics": "Turi išimtį iš žiniatinklio analitikos stebėsenos"
+}
