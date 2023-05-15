@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Garas"
+			"Garas",
+			"Nokeoo"
 		]
 	},
-	"googleanalytics-desc": "Įterpia „Google Analytics“ stebėjimo scenarijų (ga.js) į MediaWiki puslapius"
+	"googleanalytics-desc": "Stebėjimui įterpia „Google Universal Analytics“ (ir (ar) kitus žiniatinklio analizės) kodus į MediaWiki puslapius"
 }
