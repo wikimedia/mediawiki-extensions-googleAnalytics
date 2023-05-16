@@ -9,7 +9,7 @@
 			"Wladek92"
 		]
 	},
-	"googleanalytics-desc": "Ajoute des scripts Google Universal Analytics (ou d’autres service d’analyse Web) dans les pages MediaWiki pour le traçage",
-	"action-noanalytics": "exempté du suivi analytique du web",
-	"right-noanalytics": "Exempté du suivi analytique du web"
+	"googleanalytics-desc": "Ajoute des scripts de Google Universal Analytics (ou d’autres services analytiques sur le web) dans les pages MediaWiki pour le traçage",
+	"action-noanalytics": "vous absoudre du traçage analytique sur le web",
+	"right-noanalytics": "Vous absoudre du traçage analytique sur le web"
 }
