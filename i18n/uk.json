@@ -5,10 +5,11 @@
 			"Piramidion",
 			"Prima klasy4na",
 			"Vlad5250",
-			"Ата"
+			"Ата",
+			"Movses"
 		]
 	},
 	"googleanalytics-desc": "Додає скрипти Google Universal Analytics (та/або іншу веб-аналітику) на сторінки MediaWiki для відстеження",
-	"action-noanalytics": "звільнення від відстеження веб-аналітикою",
-	"right-noanalytics": "Звільнення від відстеження веб-аналітикою"
+	"action-noanalytics": "виключення з відстеження веб-аналітикою",
+	"right-noanalytics": "Виключення з відстеження веб-аналітикою"
 }
