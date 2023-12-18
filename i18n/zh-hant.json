@@ -6,10 +6,11 @@
 			"LNDDYL",
 			"Liangent",
 			"Liuxinyu970226",
-			"Mark85296341"
+			"Mark85296341",
+			"SunAfterRain"
 		]
 	},
 	"googleanalytics-desc": "為追蹤使用者而插入 Google 通用分析（或其他網站分析工具）指令碼至 MedaiWiki 頁面",
-	"action-noanalytics": "避免網站分析追蹤",
-	"right-noanalytics": "免除網站分析工具追蹤"
+	"action-noanalytics": "網路分析追蹤例外",
+	"right-noanalytics": "豁免網站分析工具追蹤"
 }
