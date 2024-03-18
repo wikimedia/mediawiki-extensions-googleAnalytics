@@ -37,11 +37,11 @@ class GoogleAnalyticsHooks {
 
   ga('create', '
 EOD
-. $wgGoogleAnalyticsAccount . <<<EOD
+			. $wgGoogleAnalyticsAccount . <<<EOD
 ', 'auto');
 
 EOD
-. ( $wgGoogleAnalyticsAnonymizeIP ? "  ga('set', 'anonymizeIp', true);\r\n" : "" ) . <<<EOD
+			. ( $wgGoogleAnalyticsAnonymizeIP ? "  ga('set', 'anonymizeIp', true);\r\n" : "" ) . <<<EOD
   ga('send', 'pageview');
 
 </script>

@@ -26,15 +26,15 @@ class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 
 		$user->expects( $this->any() )
 			->method( 'isAllowed' )
-			->will( $this->returnValue( $allowed ) );
+			->willReturn( $allowed );
 		$skin
 			->expects( $this->any() )
 			->method( 'getUser' )
-			->will( $this->returnValue( $user ) );
+			->willReturn( $user );
 
 		$skin->expects( $this->any() )
 			->method( 'getTitle' )
-			->will( $this->returnValue( Title::newFromText( $title ) ) );
+			->willReturn( Title::newFromText( $title ) );
 
 		return $skin;
 	}
