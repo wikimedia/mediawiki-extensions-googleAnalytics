@@ -6,7 +6,7 @@
 class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 	public function setUp(): void {
 		parent::setUp();
-		$this->setMwGlobals( 'wgGoogleAnalyticsAccount', '' );
+		$this->overrideConfigValue( 'GoogleAnalyticsAccount', '' );
 	}
 
 	/**
@@ -56,25 +56,25 @@ class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 	}
 
 	public function testAccountIdSet() {
-		$this->setMwGlobals( 'wgGoogleAnalyticsAccount', 'foobarbaz' );
+		$this->overrideConfigValue( 'GoogleAnalyticsAccount', 'foobarbaz' );
 		$text = '';
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
 		$this->assertStringContainsString( 'www.google-analytics.com/analytics.js', $text );
 		$this->assertStringContainsString( 'foobarbaz', $text );
-		$this->setMwGlobals( 'wgGoogleAnalyticsAccount', '' );
+		$this->overrideConfigValue( 'GoogleAnalyticsAccount', '' );
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
 		$this->assertStringContainsString( 'No web analytics configured', $text );
-		$this->setMwGlobals( 'wgGoogleAnalyticsOtherCode', 'analytics.example.com/foo.js' );
+		$this->overrideConfigValue( 'GoogleAnalyticsOtherCode', 'analytics.example.com/foo.js' );
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
 		$this->assertStringContainsString( 'analytics.example.com/foo.js', $text );
 	}
 
 	public function testAnonymizeIp() {
-		$this->setMwGlobals( 'wgGoogleAnalyticsAccount', 'foobarbaz' );
+		$this->overrideConfigValue( 'GoogleAnalyticsAccount', 'foobarbaz' );
 		$text = '';
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
 		$this->assertStringContainsString( 'anonymizeIp', $text );
-		$this->setMwGlobals( 'wgGoogleAnalyticsAnonymizeIP', false );
+		$this->overrideConfigValue( 'GoogleAnalyticsAnonymizeIP', false );
 		$text = '';
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false ), $text );
 		$this->assertStringNotContainsString( 'anonymizeIp', $text );
@@ -84,7 +84,7 @@ class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 	 * @dataProvider provideExcludedPages
 	 */
 	public function testExcludedPages( $type, $conf, $title, $include ) {
-		$this->setMwGlobals( $type, [ $conf ] );
+		$this->overrideConfigValue( $type, [ $conf ] );
 		$text = '';
 		GoogleAnalyticsHooks::onSkinAfterBottomScripts( $this->mockSkin( false, $title ), $text );
 		if ( $include ) {
@@ -96,12 +96,12 @@ class GoogleAnalyticsHooksTest extends MediaWikiLangTestCase {
 
 	public static function provideExcludedPages() {
 		return [
-			[ 'wgGoogleAnalyticsIgnoreSpecials', 'Preferences', 'Special:Preferences', false ],
-			[ 'wgGoogleAnalyticsIgnoreSpecials', 'Userlogout', 'Special:Preferences', true ],
-			[ 'wgGoogleAnalyticsIgnoreNsIDs', NS_HELP, 'Help:FooBar', false ],
-			[ 'wgGoogleAnalyticsIgnoreNsIDs', NS_MAIN, 'Help:FooBar', true ],
-			[ 'wgGoogleAnalyticsIgnorePages', 'Help:FooBar', 'Help:FooBar', false ],
-			[ 'wgGoogleAnalyticsIgnorePages', 'Help:FooBar', 'Help:FooBarBaz', true ],
+			[ 'GoogleAnalyticsIgnoreSpecials', 'Preferences', 'Special:Preferences', false ],
+			[ 'GoogleAnalyticsIgnoreSpecials', 'Userlogout', 'Special:Preferences', true ],
+			[ 'GoogleAnalyticsIgnoreNsIDs', NS_HELP, 'Help:FooBar', false ],
+			[ 'GoogleAnalyticsIgnoreNsIDs', NS_MAIN, 'Help:FooBar', true ],
+			[ 'GoogleAnalyticsIgnorePages', 'Help:FooBar', 'Help:FooBar', false ],
+			[ 'GoogleAnalyticsIgnorePages', 'Help:FooBar', 'Help:FooBarBaz', true ],
 		];
 	}
 }
