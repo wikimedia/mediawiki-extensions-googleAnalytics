@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Joseph"
+			"Joseph",
+			"SaldırganSincap"
 		]
 	},
 	"googleanalytics-desc": "İzleme için MediaWiki sayfalarına Google Universal Analytics (ve/veya diğer web analytics) betiklerini ekler",
-	"action-noanalytics": "web analitiği izlemesinden muaf",
-	"right-noanalytics": "Web analitiği izlemesinden muaf"
+	"action-noanalytics": "web analitiği takibinden muaf tutulma",
+	"right-noanalytics": "Web analitiği takibinden muaf tutun"
 }
