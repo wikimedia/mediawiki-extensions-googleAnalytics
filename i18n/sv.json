@@ -4,10 +4,11 @@
 			"Lejonel",
 			"M.M.S.",
 			"Mjälten",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Stefan2255"
 		]
 	},
 	"googleanalytics-desc": "Lägger in ett skript från Google Analytics (ga.js) på MediaWiki-sidor för att spåra användare",
-	"action-noanalytics": "Undantagen från Google Analytics-spårning",
-	"right-noanalytics": "Undantagen från Google Analytics-spårning"
+	"action-noanalytics": "bli undantagen från webbanalysspårning",
+	"right-noanalytics": "Bli undantagen från webbanalysspårning"
 }
