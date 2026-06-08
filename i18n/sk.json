@@ -3,9 +3,10 @@
 		"authors": [
 			"Helix84",
 			"Luky001",
+			"Wizzard",
 			"Yardom78"
 		]
 	},
 	"googleanalytics-desc": "Vkladá skript Google Universal Analytics (a/alebo ďalšie webové analitiky) do stránok MediaWiki na sledovanie",
-	"action-noanalytics": "neumožniť sledovať cez Matomo"
+	"action-noanalytics": "byť vyňatý zo sledovania webovej analytiky"
 }
