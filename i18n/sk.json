@@ -8,5 +8,6 @@
 		]
 	},
 	"googleanalytics-desc": "Vkladá skript Google Universal Analytics (a/alebo ďalšie webové analitiky) do stránok MediaWiki na sledovanie",
-	"action-noanalytics": "byť vyňatý zo sledovania webovej analytiky"
+	"action-noanalytics": "byť vyňatý zo sledovania webovej analytiky",
+	"right-noanalytics": "Byť vyňatý zo sledovania webovou analytikou"
 }
